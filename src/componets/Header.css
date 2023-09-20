@@ -1,0 +1,126 @@
+.iconMenu,
+.iconTheme,
+.iconColor {
+  min-width: 300px;
+  position: relative;
+  top: 8px;
+  right: 8px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  cursor: pointer;
+}
+.iconSvg {
+  position: absolute;
+  right: 0;
+  width: 32px;
+  height: 32px;
+}
+.menu,
+.moon,
+.iconSvg.colorSun,
+.iconSvg.colorMoon {
+  padding: 4px;
+  box-sizing: border-box;
+}
+.moon,
+.sun {
+   right: 38px;
+}
+.iconSvg.colorMoon,
+.iconSvg.colorSun {
+   right: 76px;
+}
+.inputMenu{
+  display: none;
+}
+.iconMenu{
+  z-index: 9;
+}
+.menudark {
+  fill: var(--darkPrimary);
+}
+.menulight {
+  fill: var(--lightPrimary);
+}
+
+.menudark0 {
+  fill: var(--darkPrimary0);
+}
+
+.menulight0 {
+  fill: var(--lightPrimary0);
+}
+
+.menudark1 {
+  fill: var(--darkPrimary1);
+}
+
+.menulight1 {
+  fill: var(--lightPrimary1);
+}
+
+.menudark2 {
+  fill: var(--darkPrimary2);
+}
+
+.menulight2 {
+  fill: var(--lightPrimary2);
+}
+
+.menudark3 {
+  fill: var(--darkPrimary3);
+}
+
+.menulight3 {
+  fill: var(--lightPrimary3);
+}
+
+.menudark4 {
+  fill: var(--darkPrimary4);
+}
+
+.menulight4 {
+  fill: var(--lightPrimary4);
+}
+
+.menudark5 {
+  fill: var(--darkPrimary5);
+}
+
+.menulight5 {
+  fill: var(--lightPrimary5);
+}
+
+.menudark6 {
+  fill: var(--darkPrimary6);
+}
+
+.menulight6 {
+  fill: var(--lightPrimary6);
+}
+
+.menudark7 {
+  fill: var(--darkPrimary7);
+}
+
+.menulight7 {
+  fill: var(--lightPrimary7);
+}
+
+.menudark8 {
+  fill: var(--darkPrimary8);
+}
+
+.menulight8 {
+  fill: var(--lightPrimary8);
+}
+
+.menudark9 {
+  fill: var(--darkPrimary9);
+}
+
+.menulight9 {
+  fill: var(--lightPrimary9);
+}
