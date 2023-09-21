@@ -1,7 +1,7 @@
 :root {
   --darkPrimary: #d02f8e;
-  --darkPrimary0: #0a0301;
-  --darkPrimary1: #122451;
+  --darkPrimary0: #1B2430;
+  --darkPrimary1: #053f7b;
   --darkPrimary2: #086c7c;
   --darkPrimary3: #0d31b5;
   --darkPrimary4: #610359;
@@ -11,8 +11,8 @@
   --darkPrimary8: #380844;
   --darkPrimary9: #4f25a4;
   --lightPrimary: #fdfee3;
-  --lightPrimary0: #0e75eb;
-  --lightPrimary1: #b19a1b;
+  --lightPrimary0: #FEFBF6;
+  --lightPrimary1: #ffa500;
   --lightPrimary2: #95f2e9;
   --lightPrimary3: #fbb1ba;
   --lightPrimary4: #e1a37d;
@@ -23,54 +23,63 @@
   --lightPrimary9: #82f184;
 }
 .dark{
+  background-image: url('./assets/techLight.svg');
   background-color: var(--darkPrimary);
   color: var(--lightPrimary) ;
   fill: var(--lightPrimary) ;
   transition: background-color .2s ease-in-out;
 }
 .light{
+  background-image: url('./assets/techDark.svg');
   background-color: var(--lightPrimary);
   color: var(--darkPrimary) ;
   fill: var(--darkPrimary) ;
   transition: background-color .2s ease-in-out;
 }
 .dark0{
+  background-image: url('./assets/textilDark.svg');
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
 .light0{
+  background-image: url('./assets/textilLight.svg');
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0) ;
   fill: var(--darkPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
 .dark1{
+  background-image: url('./assets/cellsDark.svg');
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1) ;
   fill: var(--lightPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
 .light1{
+  background-image: url('./assets/cellsLight.svg');
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1) ;
   fill: var(--darkPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
 .dark2{
+  background-image: url('./assets/dotDark.svg');
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2) ;
   fill: var(--lightPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
 .light2{
+  background-image: url('./assets/dotLigth.svg');
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2) ;
   fill: var(--darkPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
 .dark3{
+  background-image: url('./assets/metalDark.svg');
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3) ;
   fill: var(--lightPrimary3) ;
@@ -78,17 +87,20 @@
 }
 .light3{
   background-color: var(--lightPrimary3);
+  background-image: url('./assets/metalLight.svg');
   color: var(--darkPrimary3) ;
   fill: var(--darkPrimary3) ;
   transition: background-color .2s ease-in-out;
 }
 .dark4{
+  background-image: url('./assets/pillsDark.svg');
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4) ;
   fill: var(--lightPrimary4) ;
   transition: background-color .2s ease-in-out;
 }
 .light4{
+  background-image: url('./assets/pillsLight.svg');
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4) ;
   fill: var(--darkPrimary4) ;
@@ -143,12 +155,16 @@
   transition: background-color .2s ease-in-out;
 }
 .dark9{
+  background-image: url('./assets/circleDark.svg');
+  background-size: 32px;
   background-color: var(--darkPrimary9);
   color: var(--lightPrimary9) ;
   fill: var(--lightPrimary9) ;
   transition: background-color .2s ease-in-out;
 }
 .light9{
+  background-image: url('./assets/circleLight.svg');
+  background-size: 32px;
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9) ;
   fill: var(--darkPrimary9) ;
