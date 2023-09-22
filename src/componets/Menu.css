@@ -23,39 +23,51 @@
 }
 .menuBackdark{
   background-color: var(--lightPrimary);
+  background-image: url('../assets/techDark.svg');
 }
 .menuBacklight{
   background-color: var(--darkPrimary);
+  background-image: url('../assets/techDark.svg');
 }
 .menuBackdark0{
   background-color: var(--lightPrimary0);
+  background-image: url('../assets/textilLight.svg');
 }
 .menuBacklight0{
   background-color: var(--darkPrimary0);
+  background-image: url('../assets/textilDark.svg');
 }
 .menuBackdark1{
   background-color: var(--lightPrimary1);
+  background-image: url('../assets/cellsLight.svg');
 }
 .menuBacklight1{
   background-color: var(--darkPrimary1);
+  background-image: url('../assets/cellsDark.svg');
 }
 .menuBackdark2{
   background-color: var(--lightPrimary2);
+  background-image: url('../assets/dotLigth.svg');
 }
 .menuBacklight2{
   background-color: var(--darkPrimary2);
+  background-image: url('../assets/dotDark.svg');
 }
 .menuBackdark3{
   background-color: var(--lightPrimary3);
+  background-image: url('../assets/metalLight.svg');
 }
 .menuBacklight3{
   background-color: var(--darkPrimary3);
+  background-image: url('../assets/metalDark.svg');
 }
 .menuBackdark4{
   background-color: var(--lightPrimary4);
+  background-image: url('../assets/pillsLight.svg');
 }
 .menuBacklight4{
   background-color: var(--darkPrimary4);
+  background-image: url('../assets/pillsDark.svg');
 }
 .menuBackdark5{
   background-color: var(--lightPrimary5);
@@ -83,9 +95,13 @@
 }
 .menuBackdark9{
   background-color: var(--lightPrimary9);
+  background-image: url('../assets/circleLight.svg');
+  background-size: 32px;
 }
 .menuBacklight9{
   background-color: var(--darkPrimary9);
+  background-image: url('../assets/circleDark.svg');
+  background-size: 32px;
 }
 .titlesMenu{
   margin-top: 3rem;
@@ -94,11 +110,137 @@
   gap: 1px;
 }
 .titleMenu{
+  cursor: pointer;
   padding: 1rem;
   animation: titleMenu .2s ease-in-out;
   transition: none;
 }
+.titleMenu.dark,
+.titleMenu.dark0,
+.titleMenu.dark1,
+.titleMenu.dark2,
+.titleMenu.dark3,
+.titleMenu.dark4,
+.titleMenu.dark5,
+.titleMenu.dark6,
+.titleMenu.dark7,
+.titleMenu.dark8,
+.titleMenu.dark9,
+.titleMenu.light,
+.titleMenu.light0,
+.titleMenu.light1,
+.titleMenu.light2,
+.titleMenu.light3,
+.titleMenu.light4,
+.titleMenu.light5,
+.titleMenu.light6,
+.titleMenu.light7,
+.titleMenu.light8,
+.titleMenu.light9{
+  transition: background-color .3s ease-in-out, color .3s ease-in-out, background-image .3s ease-in-out;
+}
+.titleMenu.dark:hover{
+  background-image: url('../assets/techDark.svg');
+  background-color: var(--lightPrimary);
+  color: var(--darkPrimary);
+  fill: var(--darkPrimary);
+  transition: background-color .3s ease-in-out;
+}
 
+.titleMenu.light:hover{
+  background-image: url('../assets/techDark.svg');
+  background-color: var(--darkPrimary);
+  color: var(--lightPrimary);
+  fill: var(--lightPrimary);
+  transition: background-color .3s ease-in-out;
+}
+.titleMenu.dark0:hover{
+  background-image: url('../assets/textilLight.svg');
+  background-color: var(--lightPrimary0);
+  color: var(--darkPrimary0);
+  fill: var(--darkPrimary0);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light0:hover{
+  background-image: url('../assets/textilDark.svg');
+  background-color: var(--darkPrimary0);
+  color: var(--lightPrimary0);
+  fill: var(--lightPrimary0);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.dark1:hover{
+  background-image: url('../assets/cellsLight.svg');
+  background-color: var(--lightPrimary1);
+  color: var(--darkPrimary1);
+  fill: var(--darkPrimary1);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light1:hover{
+  background-image: url('../assets/cellsDark.svg');
+  background-color: var(--darkPrimary1);
+  color: var(--lightPrimary1);
+  fill: var(--lightPrimary1);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.dark2:hover{
+  background-image: url('../assets/dotLigth.svg');
+  background-color: var(--lightPrimary2);
+  color: var(--darkPrimary2);
+  fill: var(--darkPrimary2);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light2:hover{
+  background-image: url('../assets/dotDark.svg');
+  background-color: var(--darkPrimary2);
+  color: var(--lightPrimary2);
+  fill: var(--lightPrimary2);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.dark3:hover{
+  background-color: var(--lightPrimary3);
+  background-image: url('../assets/metalLight.svg');
+  color: var(--darkPrimary3);
+  fill: var(--darkPrimary3);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light3:hover{
+  background-image: url('../assets/metalDark.svg');
+  background-color: var(--darkPrimary3);
+  color: var(--lightPrimary3);
+  fill: var(--lightPrimary3);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.dark4:hover{
+  background-image: url('../assets/pillsLight.svg');
+  background-color: var(--lightPrimary4);
+  color: var(--darkPrimary4);
+  fill: var(--darkPrimary4);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light4:hover{
+  background-image: url('../assets/pillsDark.svg');
+  background-color: var(--darkPrimary4);
+  color: var(--lightPrimary4);
+  fill: var(--lightPrimary4);
+  transition: background-color .2s ease-in-out;
+}
+
+.titleMenu.dark9:hover{
+  background-image: url('../assets/circleLight.svg');
+  background-size: 32px;
+  background-color: var(--lightPrimary9);
+  color: var(--darkPrimary9);
+  fill: var(--darkPrimary9);
+  transition: background-color .2s ease-in-out;
+}
+.titleMenu.light9:hover{
+  background-image: url('../assets/circleDark.svg');
+  background-size: 32px;
+  background-color: var(--darkPrimary9);
+  color: var(--lightPrimary9);
+  fill: var(--lightPrimary9);
+  transition: background-color .2s ease-in-out;
+}
 .socials{
   padding: 1rem;
   display: flex;
