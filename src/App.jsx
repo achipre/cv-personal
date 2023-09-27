@@ -20,7 +20,7 @@ export function App () {
         changeColorful={handleColorTheme}
       />
       {isOpenMenu && <Menu closeMenu={closeMenu} classTheme={themeOs} />}
-      <Section title='Home'/>
+      <Section title="Home" />
     </>
   )
 }

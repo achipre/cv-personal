@@ -3,33 +3,32 @@
 .iconColor {
   min-width: 300px;
   position: relative;
-  right: 8px;
+  right: clamp(12px, 6vw, 32px);
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto;
   padding: 0;
   cursor: pointer;
 }
 .iconSvg {
+  right: 0;
   position: absolute;
   top: clamp(8px, 2vw, 16px);
-  right: 0;
-  width: clamp(32px, 5vw, 48px);
-  height: clamp(32px, 5vw, 48px);
+  width: clamp(42px, 5vw, 56px);
+  height: clamp(42px, 5vw, 56px);
   padding: 4px;
   box-sizing: border-box;
 }
 
 .moon,
 .sun {
-   right: clamp(38px, 6vw, 62px);
+   right: clamp(42px, 6vw, 62px);
 }
 .moon {
   padding: 8px;
 }
 .iconSvg.colorMoon,
 .iconSvg.colorSun {
-   right: clamp(76px, 12vw, 126px);
+   right: clamp(84px, 12vw, 126px);
    padding: 6px;
 }
 .inputMenu{

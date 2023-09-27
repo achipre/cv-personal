@@ -110,8 +110,8 @@
   background-size: 32px;
 }
 .titlesMenu{
-  width: clamp(300px, 100%, 1280px);
-  margin: 0 auto;
+  width: 100%;
+  margin-top: clamp(3.7rem, 9vw, 5.5rem);
   display: flex;
   flex-direction: column;
   gap: 1px;
@@ -298,11 +298,5 @@
 
   100% {
     height: 0
-  }
-}
-
-@media (width > 1280px){
-  .titlesMenu{
-
   }
 }
