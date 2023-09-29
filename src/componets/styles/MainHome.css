@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400&display=swap');
-
-
 h1{
   font-family: 'SixCaps';
   font-size: 4rem;
@@ -17,59 +14,59 @@ article{
   gap: .5rem;
 }
 .light article {
-  background-image: url('./src/assets/techDark.svg');
   background-color: var(--lightPrimary);
+  background-image: url('../../assets/techDark.svg');
   transition: background-color .2s ease-in-out;
 }
 .dark article{
-  background-image: url('./src/assets/techLight.svg');
+  background-image: url('../../assets/techLight.svg');
   background-color: var(--darkPrimary);
   transition: background-color .2s ease-in-out;
 }
 .dark0 article {
-  background-image: url('./src/assets/textilDark.svg');
+  background-image: url('../../assets/textilDark.svg');
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
   fill: var(--lightPrimary0);
   transition: background-color .2s ease-in-out;
 }
 .light0 article {
-  background-image: url('./src/assets/textilLight.svg');
+  background-image: url('../../assets/textilLight.svg');
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
   fill: var(--darkPrimary0);
   transition: background-color .2s ease-in-out;
 }
 .dark1 article {
-  background-image: url('./src/assets/cellsDark.svg');
+  background-image: url('../../assets/cellsDark.svg');
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1);
   fill: var(--lightPrimary1);
   transition: background-color .2s ease-in-out;
 }
 .light1 article {
-  background-image: url('./src/assets/cellsLight.svg');
+  background-image: url('../../assets/cellsLight.svg');
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1);
   fill: var(--darkPrimary1);
   transition: background-color .2s ease-in-out;
 }
 .dark2 article {
-  background-image: url('./src/assets/dotDark.svg');
+  background-image: url('../../assets/dotDark.svg');
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2);
   fill: var(--lightPrimary2);
   transition: background-color .2s ease-in-out;
 }
 .light2 article {
-  background-image: url('./src/assets/dotLigth.svg');
+  background-image: url('../../assets/dotLigth.svg');
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2);
   fill: var(--darkPrimary2);
   transition: background-color .2s ease-in-out;
 }
 .dark3 article {
-  background-image: url('./src/assets/metalDark.svg');
+  background-image: url('../../assets/metalDark.svg');
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3);
   fill: var(--lightPrimary3);
@@ -77,20 +74,20 @@ article{
 }
 .light3 article {
   background-color: var(--lightPrimary3);
-  background-image: url('./src/assets/metalLight.svg');
+  background-image: url('../../assets/metalLight.svg');
   color: var(--darkPrimary3);
   fill: var(--darkPrimary3);
   transition: background-color .2s ease-in-out;
 }
 .dark4 article {
-  background-image: url('./src/assets/pillsDark.svg');
+  background-image: url('../../assets/pillsDark.svg');
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4);
   fill: var(--lightPrimary4);
   transition: background-color .2s ease-in-out;
 }
 .light4 article {
-  background-image: url('./src/assets/pillsLight.svg');
+  background-image: url('../../assets/pillsLight.svg');
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4);
   fill: var(--darkPrimary4);
@@ -145,7 +142,7 @@ article{
   transition: background-color .2s ease-in-out;
 }
 .dark9 article {
-  background-image: url('./src/assets/circleDark.svg');
+  background-image: url('../../assets/circleDark.svg');
   background-size: 32px;
   background-color: var(--darkPrimary9);
   color: var(--lightPrimary9);
@@ -153,7 +150,7 @@ article{
   transition: background-color .2s ease-in-out;
 }
 .light9 article {
-  background-image: url('./src/assets/circleLight.svg');
+  background-image: url('../../assets/circleLight.svg');
   background-size: 32px;
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9);
@@ -164,7 +161,7 @@ article h1,
 article h2, 
 article p{
   padding-left: 0;
-  font-family: 'Passion One', cursive;
+  font-family: 'PassionOne', cursive;
   font-size: clamp(5rem, 18vw, 10rem);
   line-height: .9;
   animation: homeText .2s ease-in-out;

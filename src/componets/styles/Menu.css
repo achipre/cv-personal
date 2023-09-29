@@ -1,15 +1,4 @@
-@font-face {
-  font-family: 'SixCaps';
-  src: url('../../assets/font/SixCaps-Regular.ttf');
-}
-@font-face {
-  font-family: 'Kanit-Black';
-  src: url('../../assets/font/Kanit-Black.ttf');
-}
-@font-face {
-  font-family: 'Coda-ExtraBold';
-  src: url('../../assets/font/Coda-ExtraBold.ttf');
-}
+
 .pricipalMenu{
   min-width: 300px;
   margin: 0;
@@ -20,7 +9,7 @@
   display: flex;
   flex-direction: column;
   animation: screenMenuOpen .3s ease-in-out ;
-  font-family: 'Kanit-Black', sans-serif;
+  font-family: 'PassionOne', sans-serif;
   font-size: clamp(1.8rem, 5vw, 5rem);
 }
 .menuHidden{

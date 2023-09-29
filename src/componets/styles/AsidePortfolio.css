@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400&display=swap');
-.asideMain .socials {
-  display: none;
-}
+
 @media (width > 1024px){
   .asideMain{
     position: relative;
