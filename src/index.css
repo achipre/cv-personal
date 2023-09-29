@@ -5,15 +5,10 @@
 }
 @font-face {
   font-family: 'SixCaps';
-  src: url('../src/assets/font/SixCaps-Regular.ttf');
+  src: url('./assets/font/SixCaps-Regular.ttf');
 }
 
 @font-face {
   font-family: 'PassionOne';
-  src: url('../src/assets/font/PassionOne-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'Coda-ExtraBold';
-  src: url('../../assets/font/Coda-ExtraBold.ttf');
+  src: url('./assets/font/PassionOne-Bold.ttf');
 }
