@@ -1,166 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400&display=swap');
 .asideMain .socials {
   display: none;
 }
 @media (width > 1024px){
   .asideMain{
-    width: 25vw;
+    position: relative;
+    min-width: 22vw;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     padding: 3rem;
   }
-  .dark .asideMain{
-    background-image: url('../assets/techDark.svg');
+  .dark .asideMain,
+  .light .hLineAside,
+  .light .vLineAside{
+    background-image: url('../../assets/techDark.svg');
     background-color: var(--lightPrimary);
     color: var(--darkPrimary);
     fill: var(--darkPrimary);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
-  .light .asideMain{
-    background-image: url('../assets/techLight.svg');
+  .light .asideMain,
+  .dark .hLineAside,
+  .dark .vLineAside{
+    background-image: url('../../assets/techLight.svg');
     background-color: var(--darkPrimary);
     color: var(--lightPrimary);
     fill: var(--lightPrimary);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
-  .light0 .asideMain {
-    background-image: url('../assets/textilDark.svg');
+  .light0 .asideMain,
+  .light0 .asideMain .socials a svg,
+  .dark0 .hLineAside,
+  .dark0 .vLineAside {
+    background-image: url('../../assets/textilDark.svg');
     background-color: var(--darkPrimary0);
     color: var(--lightPrimary0);
     fill: var(--lightPrimary0);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
-  .dark0 .asideMain {
-    background-image: url('../assets/textilLight.svg');
+  .dark0 .asideMain,
+  .dark0 .asideMain .socials a svg,
+  .light0 .hLineAside,
+  .light0 .vLineAside {
+    background-image: url('../../assets/textilLight.svg');
     background-color: var(--lightPrimary0);
     color: var(--darkPrimary0);
     fill: var(--darkPrimary0);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light1 .asideMain,
-  .light1 .asideMain .socials a svg
-   {
-    background-image: url('../assets/cellsDark.svg');
+  .light1 .asideMain .socials a svg,
+  .dark1 .hLineAside,
+  .dark1 .vLineAside{
+    background-image: url('../../assets/cellsDark.svg');
     background-color: var(--darkPrimary1);
     color: var(--lightPrimary1);
     fill: var(--lightPrimary1);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark1 .asideMain,
-  .dark1 .asideMain .socials a svg {
-    background-image: url('../assets/cellsLight.svg');
+  .dark1 .asideMain .socials a svg,
+  .light1 .hLineAside,
+  .light1 .vLineAside {
+    background-image: url('../../assets/cellsLight.svg');
     background-color: var(--lightPrimary1);
     color: var(--darkPrimary1);
     fill: var(--darkPrimary1);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light2 .asideMain,
-  .light2 .asideMain .socials a svg {
-    background-image: url('../assets/dotDark.svg');
+  .light2 .asideMain .socials a svg,
+  .dark2 .hLineAside,
+  .dark2 .vLineAside {
+    background-image: url('../../assets/dotDark.svg');
     background-color: var(--darkPrimary2);
     color: var(--lightPrimary2);
     fill: var(--lightPrimary2);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark2 .asideMain,
-  .dark2 .asideMain .socials a svg {
-    background-image: url('../assets/dotLigth.svg');
+  .dark2 .asideMain .socials a svg,
+  .light2 .hLineAside,
+  .light2 .vLineAside {
+    background-image: url('../../assets/dotLigth.svg');
     background-color: var(--lightPrimary2);
     color: var(--darkPrimary2);
     fill: var(--darkPrimary2);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light3 .asideMain,
-  .light3 .asideMain .socials a svg {
-    background-image: url('../assets/metalDark.svg');
+  .light3 .asideMain .socials a svg,
+  .dark3 .hLineAside,
+  .dark3 .vLineAside {
+    background-image: url('../../assets/metalDark.svg');
     background-color: var(--darkPrimary3);
     color: var(--lightPrimary3);
     fill: var(--lightPrimary3);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark3 .asideMain,
-  .dark3 .asideMain .socials a svg {
+  .dark3 .asideMain .socials a svg,
+  .light3 .hLineAside,
+  .light3 .vLineAside {
     background-color: var(--lightPrimary3);
-    background-image: url('../assets/metalLight.svg');
+    background-image: url('../../assets/metalLight.svg');
     color: var(--darkPrimary3);
     fill: var(--darkPrimary3);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light4 .asideMain,
-  .light4 .asideMain .socials a svg {
-    background-image: url('../assets/pillsDark.svg');
+  .light4 .asideMain .socials a svg,
+  .dark4 .hLineAside,
+  .dark4 .vLineAside {
+    background-image: url('../../assets/pillsDark.svg');
     background-color: var(--darkPrimary4);
     color: var(--lightPrimary4);
     fill: var(--lightPrimary4);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark4 .asideMain,
-  .dark4 .asideMain .socials a svg {
-    background-image: url('../assets/pillsLight.svg');
+  .dark4 .asideMain .socials a svg,
+  .light4 .hLineAside,
+  .light4 .vLineAside {
+    background-image: url('../../assets/pillsLight.svg');
     background-color: var(--lightPrimary4);
     color: var(--darkPrimary4);
     fill: var(--darkPrimary4);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light5 .asideMain,
-  .light5 .asideMain .socials a svg {
+  .light5 .asideMain .socials a svg,
+  .dark5 .hLineAside,
+  .dark5 .vLineAside {
     background-color: var(--darkPrimary5);
     color: var(--lightPrimary5);
     fill: var(--lightPrimary5);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark5 .asideMain,
-  .dark5 .asideMain .socials a svg {
+  .dark5 .asideMain .socials a svg,
+  .light5 .hLineAside,
+  .light5 .vLineAside {
     background-color: var(--lightPrimary5);
     color: var(--darkPrimary5);
     fill: var(--darkPrimary5);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light6 .asideMain,
-  .light6 .asideMain .socials a svg {
+  .light6 .asideMain .socials a svg,
+  .dark6 .hLineAside,
+  .dark6 .vLineAside {
     background-color: var(--darkPrimary6);
     color: var(--lightPrimary6);
     fill: var(--lightPrimary6);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark6 .asideMain,
-  .dark6 .asideMain .socials a svg {
+  .dark6 .asideMain .socials a svg,
+  .light6 .hLineAside,
+  .light6 .vLineAside {
     background-color: var(--lightPrimary6);
     color: var(--darkPrimary6);
     fill: var(--darkPrimary6);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light7 .asideMain,
-  .light7 .asideMain .socials a svg {
+  .light7 .asideMain .socials a svg,
+  .dark7 .hLineAside,
+  .dark7 .vLineAside {
     background-color: var(--darkPrimary7);
     color: var(--lightPrimary7);
     fill: var(--lightPrimary7);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark7 .asideMain,
-  .dark7 .asideMain .socials a svg {
+  .dark7 .asideMain .socials a svg,
+  .light7 .hLineAside,
+  .light7 .vLineAside {
     background-color: var(--lightPrimary7);
     color: var(--darkPrimary7);
     fill: var(--darkPrimary7);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light8 .asideMain,
-  .light8 .asideMain .socials a svg {
+  .light8 .asideMain .socials a svg,
+  .dark8 .hLineAside,
+  .dark8 .vLineAside {
     background-color: var(--darkPrimary8);
     color: var(--lightPrimary8);
     fill: var(--lightPrimary8);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark8 .asideMain,
-  .dark8 .asideMain .socials a svg {
+  .dark8 .asideMain .socials a svg,
+  .light8 .hLineAside,
+  .light8 .vLineAside {
     background-color: var(--lightPrimary8);
     color: var(--darkPrimary8);
     fill: var(--darkPrimary8);
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .light9 .asideMain,
-  .light9 .asideMain .socials a svg {
-    background-image: url('../assets/circleDark.svg');
+  .light9 .asideMain .socials a svg,
+  .dark9 .hLineAside,
+  .dark9 .vLineAside {
+    background-image: url('../../assets/circleDark.svg');
     background-size: 32px;
     background-color: var(--darkPrimary9);
     color: var(--lightPrimary9);
@@ -168,8 +213,10 @@
     transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   }
   .dark9 .asideMain,
-  .dark9 .asideMain .socials a svg{
-    background-image: url('../assets/circleLight.svg');
+  .dark9 .asideMain .socials a svg,
+  .light9 .hLineAside,
+  .light9 .vLineAside{
+    background-image: url('../../assets/circleLight.svg');
     background-size: 32px;
     background-color: var(--lightPrimary9);
     color: var(--darkPrimary9);
@@ -182,6 +229,7 @@
     font-size: clamp(5rem, 15vw, 15rem);
     line-height: 0.9;
     margin: 0;
+    padding: 0;
     align-self: baseline;
     animation: titleAside .3s ease-in-out;
   }
@@ -192,10 +240,12 @@
   }
   .asideMain .socials{
     display: flex;
+    padding: 0;
+    padding-top: 1.5rem;
     flex-direction: column;
-    margin: 0;
     transform: translateX(-200px);
     animation: none;
+    align-items: flex-start;
   }
   .asideMain .socials a:first-child{
     animation: socialAside .2s ease-in-out both;
@@ -209,14 +259,45 @@
   .asideMain .socials a:nth-child(4){
     animation: socialAside .2s ease-in-out .3s both;
   }
-    @keyframes socialAside {
-      from {
-        transform: translateX(0)
-      }
-  
-      to {
-        transform: translateX(200px)
-      }
-  
+  @keyframes socialAside {
+    from {
+      transform: translateX(0)
     }
+    to {
+      transform: translateX(200px)
+    }
+  }
+  .hLineAside{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 1px;
+    height: 2px;
+    animation: hLineAside 1s ease-in-out both;
+  }
+  @keyframes hLineAside {
+    form {
+      width: 1px
+    }
+    to {
+      width: calc(100% - 96px)
+    }
+  }
+  .vLineAside{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 2px;
+    height: 1px;
+    animation: vLineAside 1s ease-in-out both;
+  }
+  @keyframes vLineAside {
+    form {
+      height: 1px
+    }
+
+    to {
+      height: 55%
+    }
+  }
 }

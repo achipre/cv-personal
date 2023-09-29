@@ -1,0 +1,25 @@
+.articleHome{
+  position: fixed;
+  z-index: 1;
+}
+
+.articleAbout{
+  position: absolute;
+  margin-top: 100vh;
+  z-index: 2;
+}
+.articleProjects{
+  position: absolute;
+  margin-top: 200vh;
+  z-index: 3;
+}
+.articleBlog{
+  position: absolute;
+  margin-top: 300vh;
+  z-index: 4;
+}
+.articleContact{
+  position: absolute;
+  margin-top: 400vh;
+  z-index: 5;
+}

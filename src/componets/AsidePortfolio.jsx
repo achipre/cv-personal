@@ -1,4 +1,4 @@
-import './AsidePortfolio.css'
+import './styles/AsidePortfolio.css'
 export const AsidePortfolio = ({ title }) => {
   const curretThemeInLocal = window.localStorage.getItem('theme')
 
@@ -39,6 +39,8 @@ export const AsidePortfolio = ({ title }) => {
           </svg>
         </a>
       </div>
+      <div className='hLineAside'></div>
+      <div className="vLineAside"></div>
     </aside>
   )
 }

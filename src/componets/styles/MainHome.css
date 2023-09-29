@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400&display=swap');
+
+
+h1{
+  font-family: 'SixCaps';
+  font-size: 4rem;
+  padding-left: clamp(1.4rem, 2vw, 3rem);
+}
+article{
+  padding: 2rem;
+  min-width: 300px;
+  min-height: calc(144px + 95px + 72px);
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 84px);
+  justify-content: center;
+  gap: .5rem;
+}
+.light article {
+  background-image: url('./src/assets/techDark.svg');
+  background-color: var(--lightPrimary);
+  transition: background-color .2s ease-in-out;
+}
+.dark article{
+  background-image: url('./src/assets/techLight.svg');
+  background-color: var(--darkPrimary);
+  transition: background-color .2s ease-in-out;
+}
+.dark0 article {
+  background-image: url('./src/assets/textilDark.svg');
+  background-color: var(--darkPrimary0);
+  color: var(--lightPrimary0);
+  fill: var(--lightPrimary0);
+  transition: background-color .2s ease-in-out;
+}
+.light0 article {
+  background-image: url('./src/assets/textilLight.svg');
+  background-color: var(--lightPrimary0);
+  color: var(--darkPrimary0);
+  fill: var(--darkPrimary0);
+  transition: background-color .2s ease-in-out;
+}
+.dark1 article {
+  background-image: url('./src/assets/cellsDark.svg');
+  background-color: var(--darkPrimary1);
+  color: var(--lightPrimary1);
+  fill: var(--lightPrimary1);
+  transition: background-color .2s ease-in-out;
+}
+.light1 article {
+  background-image: url('./src/assets/cellsLight.svg');
+  background-color: var(--lightPrimary1);
+  color: var(--darkPrimary1);
+  fill: var(--darkPrimary1);
+  transition: background-color .2s ease-in-out;
+}
+.dark2 article {
+  background-image: url('./src/assets/dotDark.svg');
+  background-color: var(--darkPrimary2);
+  color: var(--lightPrimary2);
+  fill: var(--lightPrimary2);
+  transition: background-color .2s ease-in-out;
+}
+.light2 article {
+  background-image: url('./src/assets/dotLigth.svg');
+  background-color: var(--lightPrimary2);
+  color: var(--darkPrimary2);
+  fill: var(--darkPrimary2);
+  transition: background-color .2s ease-in-out;
+}
+.dark3 article {
+  background-image: url('./src/assets/metalDark.svg');
+  background-color: var(--darkPrimary3);
+  color: var(--lightPrimary3);
+  fill: var(--lightPrimary3);
+  transition: background-color .2s ease-in-out;
+}
+.light3 article {
+  background-color: var(--lightPrimary3);
+  background-image: url('./src/assets/metalLight.svg');
+  color: var(--darkPrimary3);
+  fill: var(--darkPrimary3);
+  transition: background-color .2s ease-in-out;
+}
+.dark4 article {
+  background-image: url('./src/assets/pillsDark.svg');
+  background-color: var(--darkPrimary4);
+  color: var(--lightPrimary4);
+  fill: var(--lightPrimary4);
+  transition: background-color .2s ease-in-out;
+}
+.light4 article {
+  background-image: url('./src/assets/pillsLight.svg');
+  background-color: var(--lightPrimary4);
+  color: var(--darkPrimary4);
+  fill: var(--darkPrimary4);
+  transition: background-color .2s ease-in-out;
+}
+.dark5 article {
+  background-color: var(--darkPrimary5);
+  color: var(--lightPrimary5);
+  fill: var(--lightPrimary5);
+  transition: background-color .2s ease-in-out;
+}
+.light5 article {
+  background-color: var(--lightPrimary5);
+  color: var(--darkPrimary5);
+  fill: var(--darkPrimary5);
+  transition: background-color .2s ease-in-out;
+}
+.dark6 article {
+  background-color: var(--darkPrimary6);
+  color: var(--lightPrimary6);
+  fill: var(--lightPrimary6);
+  transition: background-color .2s ease-in-out;
+}
+.light6 article {
+  background-color: var(--lightPrimary6);
+  color: var(--darkPrimary6);
+  fill: var(--darkPrimary6);
+  transition: background-color .2s ease-in-out;
+}
+.dark7 article {
+  background-color: var(--darkPrimary7);
+  color: var(--lightPrimary7);
+  fill: var(--lightPrimary7);
+  transition: background-color .2s ease-in-out;
+}
+.light7 article {
+  background-color: var(--lightPrimary7);
+  color: var(--darkPrimary7);
+  fill: var(--darkPrimary7);
+  transition: background-color .2s ease-in-out;
+}
+.dark8 article {
+  background-color: var(--darkPrimary8);
+  color: var(--lightPrimary8);
+  fill: var(--lightPrimary8);
+  transition: background-color .2s ease-in-out;
+}
+.light8 article{
+  background-color: var(--lightPrimary8);
+  color: var(--darkPrimary8);
+  fill: var(--darkPrimary8);
+  transition: background-color .2s ease-in-out;
+}
+.dark9 article {
+  background-image: url('./src/assets/circleDark.svg');
+  background-size: 32px;
+  background-color: var(--darkPrimary9);
+  color: var(--lightPrimary9);
+  fill: var(--lightPrimary9);
+  transition: background-color .2s ease-in-out;
+}
+.light9 article {
+  background-image: url('./src/assets/circleLight.svg');
+  background-size: 32px;
+  background-color: var(--lightPrimary9);
+  color: var(--darkPrimary9);
+  fill: var(--darkPrimary9);
+  transition: background-color .2s ease-in-out;
+}
+article h1,
+article h2, 
+article p{
+  padding-left: 0;
+  font-family: 'Passion One', cursive;
+  font-size: clamp(5rem, 18vw, 10rem);
+  line-height: .9;
+  animation: homeText .2s ease-in-out;
+}
+article h2{
+  font-size: clamp(2.8rem, 11vw, 6rem);
+  animation: homeText .3s ease-in-out;
+}
+article p{
+  text-wrap: balance;
+  padding-bottom: .7rem;
+  font-size: clamp(1.5rem, 5.5vw, 3rem);
+  animation: homeText .4s ease-in-out;
+}
+@keyframes homeText {
+  from{transform: translateX(-800px)}
+  to{transform: translateX(0)}
+}
+
+@media (width > 1024px) {
+  section {
+    display: flex;
+  }
+  article {
+    padding: 3rem;
+    height: 100vh;
+  }
+  article h1{
+    font-size: max(8.5rem, 11vw);
+  }
+  article h2{
+    font-size: max(4.8rem, 6vw);
+  }
+  article p {
+    font-size: max(3rem, 3.8vw);
+  }
+}

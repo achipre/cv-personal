@@ -21,6 +21,10 @@ export function App () {
       />
       {isOpenMenu && <Menu closeMenu={closeMenu} classTheme={themeOs} />}
       <Section title="Home" />
+      <Section title="About me" />
+      {/* <Section title="Projects" />
+      <Section title="Blog" />
+      <Section title="Contact" /> */}
     </>
   )
 }

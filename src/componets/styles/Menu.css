@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'SixCaps';
-  src: url('../assets/font/SixCaps-Regular.ttf');
+  src: url('../../assets/font/SixCaps-Regular.ttf');
 }
 @font-face {
   font-family: 'Kanit-Black';
-  src: url('../assets/font/Kanit-Black.ttf');
+  src: url('../../assets/font/Kanit-Black.ttf');
 }
 @font-face {
   font-family: 'Coda-ExtraBold';
-  src: url('../assets/font/Coda-ExtraBold.ttf');
+  src: url('../../assets/font/Coda-ExtraBold.ttf');
 }
 .pricipalMenu{
   min-width: 300px;
   margin: 0;
   padding: 0;
   width: 100%;
-  position: absolute;
-  z-index: 5;
+  position: fixed;
+  z-index: 6;
   display: flex;
   flex-direction: column;
   animation: screenMenuOpen .3s ease-in-out ;
@@ -479,103 +479,44 @@
     60%{transform: translateY(-60px)}
     100%{transform: translateY(0)}
   }
-  .decorations{
-    position: relative;
+  .decorationsLine{
+    position: absolute;
     bottom: 40px;
     right: 58px;
-  }
-  .decorations .principalH{
-    position: absolute;
-    right: 0;
     width: 5px;
-    height: 1px;
-    animation: hLineMenu 1s ease-in-out .2s both;
+    height: 2px;
+    animation: hLineMenu 1s ease-in-out both;
   }
-  .decorations .principalH2{
+  .decorationsLine2{
     position: absolute;
-    right: 0;
-    bottom: 6.5vh;
-    width: 1px;
-    height: 1px;
-    animation: hLineMenuMini 1s ease-in-out .28s both;
-  }
-  .decorations .principalH2:nth-child(5){
-    bottom: 13.1vh;
-    animation: hLineMenuMini 1s ease-in-out .22s both;
-  }
-  .decorations .principalH2:nth-child(6){
-    bottom: 19.7vh;
-    animation: hLineMenuMini 1s ease-in-out .38s both;
-  }
-  .decorations .principalH2:nth-child(7){
-    bottom: 27.3vh;
-    animation: hLineMenuMini 1s ease-in-out .42s both;
-  }
-  .decorations .principalH2:nth-child(8){
-    bottom: 34.9vh;
-    animation: hLineMenuMini 1s ease-in-out .48s both;
-  }
-  .decorations .principalH2:nth-child(9){
-    bottom: 42.5vh;
-    animation: hLineMenuMini 1s ease-in-out .54s both;
-  }
-  .decorations .principalH2:nth-child(10){
-    bottom: 50.1vh;
-    animation: hLineMenuMini 1s ease-in-out .6s both;
-  }
-  .decorations .principalH2:nth-child(11){
-    bottom: 57.7vh;
-    animation: hLineMenuMini 1s ease-in-out .68s both;
-  }
-  .decorations .principalH2:nth-child(12){
-    bottom: 65vh;
-    animation: hLineMenuMini 1s ease-in-out .72s both;
-  }
-  .decorations .principalH2:nth-child(13){
-    bottom: 70vh;
-    animation: hLineMenuMini 1s ease-in-out .78s both;
-  }
-  .decorations .principalH2:nth-child(14){
-    bottom: 78vh;
-    animation: hLineMenuMini 1s ease-in-out .84s both;
-  }
-  .decorations .principalH2:nth-child(15){
-    bottom: calc(100vh - 160px);
-    animation: hLineMenuMini 1s ease-in-out .9s both;
+    bottom: 40px;
+    right: 58px;
+    width: 2px;
+    height: 5px;
+    animation: vLineMenu 1.5s ease-in-out both;
   }
   @keyframes hLineMenu {
     form{width: 5px}
     to{width: 65vw}    
   }
-  @keyframes hLineMenuMini {
-    form{transform: scaleX(0); opacity: 0;}
-    to{transform: scaleX(125); opacity: 1;}    
-  }
-  .decorations .principalV{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 1px;
-    height: 5px;
-    animation: vLineMenu 1s ease-in-out .2s both;
-  }
-  .decorations .principalV:nth-child(2){
-    right: 62px;
-    animation: vLineMenu 2s ease-in-out .25s both;
-  }
   @keyframes vLineMenu {
     form{height: 5px}
-    to{height: calc(100vh - 160px); min-height: 496px;}   
+    to{height: calc(100vh - 76vh - 40px); min-height: 100px;}    
   }
-  
-}
-@media (height < 670px) {
-  @keyframes hLineMenu {
-      form {
-        width: 5px
-      }
-      to {
-        width: 6vw
-      }
-    }
+  .gridDecoration{
+    position: absolute;
+    top: 90px;
+    right: 0;
+    height: calc(76vh - 89px);
+    min-height: 215px;
+    width: 119px;
+    display: grid;
+    gap: 1px;
+    background-color: transparent;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gridInside{
+    width: 100%;
+    height: 100%;
+  }
 }

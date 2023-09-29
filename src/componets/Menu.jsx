@@ -1,5 +1,5 @@
 import { soundHover } from '../hooks/theme'
-import './Menu.css'
+import './styles/Menu.css'
 export const Menu = ({ classTheme, closeMenu }) => {
   const curretThemeInLocal = window.localStorage.getItem('theme')
 
@@ -99,22 +99,23 @@ export const Menu = ({ classTheme, closeMenu }) => {
           </a>
         </div>
       </div>
-      <div className="decorations">
-        <div className={`principalV ${curretThemeInLocal}`}></div>
-        <div className={`principalV ${curretThemeInLocal}`}></div>
-        <div className={`principalH ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
-        <div className={`principalH2 ${curretThemeInLocal}`}></div>
+      <div className={`decorationsLine ${classTheme}`}></div>
+      <div className={`decorationsLine2 ${classTheme}`}></div>
+      <div className={`gridDecoration ${classTheme}`}>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
+        <div className={`gridInside ${classTheme}`}></div>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import './Header.css'
+import './styles/Header.css'
 export const Header = ({ changeTheme, theme, changeColorful, handleMenu, isOpenMenu }) => {
   const curretThemeInLocal = window.localStorage.getItem('theme')
   return (
