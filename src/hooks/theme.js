@@ -60,4 +60,4 @@ export const useMenu = () => {
   }
   return { isOpenMenu, handleMenu }
 }
-export const soundHover = new Audio('../../public/mousehover.mp3')
+export const soundHover = new Audio('/mousehover.mp3')
