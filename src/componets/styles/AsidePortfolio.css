@@ -1,3 +1,119 @@
+.asideMain{
+  z-index: 4;
+}
+.asideMain .socials,
+.asideMain .hLineAside,
+.asideMain .vLineAside{
+  display: none;
+}
+.light .asideMain {
+  background-image: url('../../assets/techDark.svg');
+  background-color: var(--lightPrimary);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+
+.dark .asideMain{
+  background-image: url('../../assets/techLight.svg');
+  background-color: var(--darkPrimary);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+
+.dark0 .asideMain{
+background-image: url('../../assets/textilDark.svg');
+background-color: var(--darkPrimary0);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+
+.light0 .asideMain{
+  background-image: url('../../assets/textilLight.svg');
+  background-color: var(--lightPrimary0);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+
+.dark1 .asideMain {
+background-image: url('../../assets/cellsDark.svg');
+background-color: var(--darkPrimary1);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light1 .asideMain{
+  background-image: url('../../assets/cellsLight.svg');
+  background-color: var(--lightPrimary1);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark2 .asideMain {
+background-image: url('../../assets/dotDark.svg');
+background-color: var(--darkPrimary2);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light2 .asideMain{
+  background-image: url('../../assets/dotLigth.svg');
+  background-color: var(--lightPrimary2);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark3 .asideMain {
+background-image: url('../../assets/metalDark.svg');
+background-color: var(--darkPrimary3);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light3 .asideMain {
+  background-color: var(--lightPrimary3);
+  background-image: url('../../assets/metalLight.svg');
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark4 .asideMain {
+background-image: url('../../assets/pillsDark.svg');
+background-color: var(--darkPrimary4);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light4 .asideMain {
+  background-image: url('../../assets/pillsLight.svg');
+  background-color: var(--lightPrimary4);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark5 .asideMain {
+background-color: var(--darkPrimary5);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light5 .asideMain {
+  background-color: var(--lightPrimary5);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark6 .asideMain {
+background-color: var(--darkPrimary6);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light6 .asideMain {
+  background-color: var(--lightPrimary6);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark7 .asideMain {
+background-color: var(--darkPrimary7);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light7 .asideMain {
+  background-color: var(--lightPrimary7);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark8 .asideMain {
+background-color: var(--darkPrimary8);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light8 .asideMain {
+  background-color: var(--lightPrimary8);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.dark9 .asideMain {
+background-image: url('../../assets/circleDark.svg');
+background-size: 32px;
+background-color: var(--darkPrimary9);
+transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
+.light9 .asideMain {
+  background-image: url('../../assets/circleLight.svg');
+  background-size: 32px;
+  background-color: var(--lightPrimary9);
+  transition: background-color .2s ease-in-out, transform .3s ease-in-out;
+}
 
 @media (width > 1024px){
   .asideMain{
@@ -7,6 +123,10 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     padding: 3rem;
+  }
+  .asideMain .hLineAside,
+  .asideMain .vLineAside {
+    display: block;
   }
   .dark .asideMain,
   .light .hLineAside,

@@ -13,46 +13,62 @@ export const Menu = ({ classTheme, closeMenu }) => {
   return (
     <div className={`pricipalMenu menuBack${classTheme}`}>
       <div className="titlesMenu">
-        <h2
-          onMouseEnter={hoverMenu}
-          onMouseLeave={leaveMenu}
-          onClick={closeMenu}
+        <a href="#home"
           className={`titleMenu ${classTheme}`}
         >
-          HOME
-        </h2>
-        <h2
-          onMouseEnter={hoverMenu}
-          onMouseLeave={leaveMenu}
-          onClick={closeMenu}
+          <h2
+            onMouseEnter={hoverMenu}
+            onMouseLeave={leaveMenu}
+            onClick={closeMenu}
+          >
+            HOME
+          </h2>
+
+        </a>
+        <a href="#about"
           className={`titleMenu ${classTheme}`}
         >
-          ABOUT ME
-        </h2>
-        <h2
-          onMouseEnter={hoverMenu}
-          onMouseLeave={leaveMenu}
-          onClick={closeMenu}
+          <h2
+            onMouseEnter={hoverMenu}
+            onMouseLeave={leaveMenu}
+            onClick={closeMenu}
+          >
+            ABOUT ME
+          </h2>
+        </a>
+        <a href="#project"
           className={`titleMenu ${classTheme}`}
         >
-          PROJECT
-        </h2>
-        <h2
-          onMouseEnter={hoverMenu}
-          onMouseLeave={leaveMenu}
-          onClick={closeMenu}
+          <h2
+            onMouseEnter={hoverMenu}
+            onMouseLeave={leaveMenu}
+            onClick={closeMenu}
+          >
+            PROJECT
+          </h2>
+        </a>
+        <a href="#blog"
           className={`titleMenu ${classTheme}`}
         >
-          BLOG
-        </h2>
-        <h2
-          onMouseEnter={hoverMenu}
-          onMouseLeave={leaveMenu}
-          onClick={closeMenu}
+          <h2
+            onMouseEnter={hoverMenu}
+            onMouseLeave={leaveMenu}
+            onClick={closeMenu}
+          >
+            BLOG
+          </h2>
+        </a>
+        <a href="#contact"
           className={`titleMenu ${classTheme}`}
         >
-          CONTACT
-        </h2>
+          <h2
+            onMouseEnter={hoverMenu}
+            onMouseLeave={leaveMenu}
+            onClick={closeMenu}
+          >
+            CONTACT
+          </h2>
+        </a>
       </div>
       <div className="socials">
         <p className={`socialsTitle menuBack${classTheme}`}>

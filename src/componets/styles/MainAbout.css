@@ -1,0 +1,35 @@
+#about{
+  justify-content: space-evenly;
+}
+article .statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: max(1.5rem, 2.5vw);
+}
+article .statistics div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article .statistics div h2 {
+  font-size: max(1.5rem, 2.5vw);
+}
+article .statistics div p {
+  font-size: max(2.5rem, 3.5vw);
+  font-family: "SixCaps";
+}
+article .paragraphAbout {
+  font-size: max(1.5rem, 2.5vw);
+}
+.technology h2 {
+  padding-bottom: 1rem;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+}
+.technology .iconTech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

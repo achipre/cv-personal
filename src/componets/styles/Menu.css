@@ -18,63 +18,63 @@
 }
 .menuBackdark{
   background-color: var(--lightPrimary);
-  background-image: url('../assets/techDark.svg');
+  background-image: url('../../assets/techDark.svg');
   color: var(--darkPrimary);
 }
 .menuBacklight{
   background-color: var(--darkPrimary);
-  background-image: url('../assets/techDark.svg');
+  background-image: url('../../assets/techDark.svg');
   color: var(--lightPrimary);
 }
 .menuBackdark0{
   color: var(--darkPrimary0);
   background-color: var(--lightPrimary0);
-  background-image: url('../assets/textilLight.svg');
+  background-image: url('../../assets/textilLight.svg');
 }
 .menuBacklight0{
   color: var(--lightPrimary0);
   background-color: var(--darkPrimary0);
-  background-image: url('../assets/textilDark.svg');
+  background-image: url('../../assets/textilDark.svg');
 }
 .menuBackdark1{
   color: var(--darkPrimary1);
   background-color: var(--lightPrimary1);
-  background-image: url('../assets/cellsLight.svg');
+  background-image: url('../../assets/cellsLight.svg');
 }
 .menuBacklight1{
   color: var(--lightPrimary1);
   background-color: var(--darkPrimary1);
-  background-image: url('../assets/cellsDark.svg');
+  background-image: url('../../assets/cellsDark.svg');
 }
 .menuBackdark2{
   color: var(--darkPrimary2);
   background-color: var(--lightPrimary2);
-  background-image: url('../assets/dotLigth.svg');
+  background-image: url('../../assets/dotLigth.svg');
 }
 .menuBacklight2{
   color: var(--lightPrimary2);
   background-color: var(--darkPrimary2);
-  background-image: url('../assets/dotDark.svg');
+  background-image: url('../../assets/dotDark.svg');
 }
 .menuBackdark3{
   color: var(--darkPrimary3);
   background-color: var(--lightPrimary3);
-  background-image: url('../assets/metalLight.svg');
+  background-image: url('../../assets/metalLight.svg');
 }
 .menuBacklight3{
   color: var(--lightPrimary3);
+  background-image: url('../../assets/metalDark.svg');
   background-color: var(--darkPrimary3);
-  background-image: url('../assets/metalDark.svg');
 }
 .menuBackdark4{
   color: var(--darkPrimary4);
+  background-image: url('../../assets/pillsLight.svg');
   background-color: var(--lightPrimary4);
-  background-image: url('../assets/pillsLight.svg');
 }
 .menuBacklight4{
   color: var(--lightPrimary4);
   background-color: var(--darkPrimary4);
-  background-image: url('../assets/pillsDark.svg');
+  background-image: url('../../assets/pillsDark.svg');
 }
 .menuBackdark5{
   color: var(--darkPrimary5);
@@ -111,13 +111,13 @@
 .menuBackdark9{
   color: var(--darkPrimary9);
   background-color: var(--lightPrimary9);
-  background-image: url('../assets/circleLight.svg');
+  background-image: url('../../assets/circleLight.svg');
   background-size: 32px;
 }
 .menuBacklight9{
   color: var(--lightPrimary9);
   background-color: var(--darkPrimary9);
-  background-image: url('../assets/circleDark.svg');
+  background-image: url('../../assets/circleDark.svg');
   background-size: 32px;
 }
 .titlesMenu{
@@ -388,7 +388,8 @@
     grid-template-columns: repeat(6, 1fr);
     margin-top:0 ;
   }
-  .titleMenu{
+  .titleMenu,
+  .titleMenu h2{
     padding-left: 1.8rem;
     font-size: clamp(3rem, 5vw ,10rem);
     min-height: 152px;
