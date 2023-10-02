@@ -1,12 +1,15 @@
 #about{
   justify-content: space-evenly;
+  gap: 3rem;
+  min-height: auto;
+  height: auto;
 }
 article .statistics {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  font-size: max(1.5rem, 2.5vw);
+  font-size: max(1.5rem, 100vw);
 }
 article .statistics div {
   display: flex;
@@ -17,14 +20,14 @@ article .statistics div h2 {
   font-size: max(1.5rem, 2.5vw);
 }
 article .statistics div p {
-  font-size: max(2.5rem, 3.5vw);
+  font-size: max(1.7rem, 5.5vw);
   font-family: "SixCaps";
 }
 article .paragraphAbout {
-  font-size: max(1.5rem, 2.5vw);
+  font-size: max(1.5rem, 3.5vw);
 }
 .technology h2 {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   font-size: clamp(2rem, 4.5vw, 3.5rem);
 }
 .technology .iconTech {
@@ -32,4 +35,15 @@ article .paragraphAbout {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+@media (width > 1024px){
+  #about {
+    height: 100vh;
+  }
+  article .statistics div p {
+    font-size: max(3rem, 5vw);
+  }
+  article .paragraphAbout {
+    font-size: max(2rem, 2.6vw);
+  }
 }

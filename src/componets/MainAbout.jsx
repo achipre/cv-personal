@@ -27,7 +27,7 @@ export const MainAbout = () => {
         you can find most of my works here.
       </p>
       <div className="technology">
-        <h2>Technologies</h2>
+        <h2>Technologies:</h2>
         <div className="iconTech">
           <Html />
           <Css />
