@@ -408,13 +408,24 @@ transition: background-color .2s ease-in-out, transform .3s ease-in-out;
     height: 1px;
     animation: vLineAside 1s ease-in-out both;
   }
+  .articleHome .vLineAside,
+  .articleBlog .vLineAside{
+    animation: vLineAsideMax 1s ease-in-out both;
+  }
+  @keyframes vLineAsideMax {
+    form {
+      height: 1px
+    }
+    to {
+      height: 60%
+    }
+  }
   @keyframes vLineAside {
     form {
       height: 1px
     }
-
     to {
-      height: 55%
+      height: 40%
     }
   }
 }

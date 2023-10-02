@@ -23,8 +23,8 @@ export function App () {
       <Section title="Home" />
       <Section title="About me" />
       <Section title="Projects" />
-      {/* <Section title="Blog" />
-      <Section title="Contact" /> */}
+      <Section title="Blog" />
+      <Section title="Contact" />
     </>
   )
 }

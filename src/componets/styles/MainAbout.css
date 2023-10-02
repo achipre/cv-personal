@@ -36,6 +36,10 @@ article .paragraphAbout {
   align-items: center;
   gap: 1rem;
 }
+.technology .iconTech svg {
+  width: 60px;
+  height: 60px;
+}
 @media (width > 1024px){
   #about {
     height: 100vh;
