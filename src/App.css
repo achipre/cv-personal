@@ -23,10 +23,12 @@
   --lightPrimary9: #82f184;
 }
 .dark,
-.dark #project .cardProject:last-child:hover,
-.light #project .cardProject,
+.dark #project .card:last-child:hover,
+.dark #blog .card:last-child:hover,
+.light #project .card,
+.light #blog .card,
 .light div a svg,
-.light .cardProject div
+.light .card div
 {
   background-image: url('./assets/techLight.svg');
   background-color: var(--darkPrimary);
@@ -34,213 +36,666 @@
   fill: var(--lightPrimary) ;
   transition: background-color .2s ease-in-out;
 }
+.dark .formulario input,
+.dark .formulario textarea,
+.dark .formulario input::placeholder{
+  border-bottom: 2px solid var(--lightPrimary);
+  color: var(--lightPrimary) ;
+}
+.dark .formulario button{
+  border: 2px solid var(--lightPrimary);
+  color: var(--lightPrimary) ;
+}
+.dark .formulario button:hover{
+  border: 2px solid var(--lightPrimary);
+  background-color: var(--lightPrimary) ;
+  color: var(--darkPrimary) ;
+}
+.dark .formulario textarea::placeholder{
+  color: var(--lightPrimary) ;
+}
 .light,
-.light #project .cardProject:last-child:hover,
-.dark #project .cardProject,
-.dark .cardProject div a svg,
-.dark .cardProject div{
+.light #project .card:last-child:hover,
+.light #blog .card:last-child:hover,
+.dark #project .card,
+.dark #blog .card,
+.dark .card div a svg,
+.dark .card div{
   background-image: url('./assets/techDark.svg');
   background-color: var(--lightPrimary);
   color: var(--darkPrimary) ;
   fill: var(--darkPrimary) ;
   transition: background-color .2s ease-in-out;
 }
+.light .formulario input,
+.light .formulario textarea,
+.light .formulario input::placeholder{
+  color: var(--darkPrimary);
+  border-bottom: 2px solid var(--darkPrimary);
+}
+.light .formulario button {
+  border: 2px solid var(--darkPrimary);
+  color: var(--darkPrimary);
+}
+.light .formulario button:hover {
+  border: 2px solid var(--darkPrimary);
+  background-color: var(--darkPrimary);
+  color: var(--lightPrimary);
+}
+.light .formulario textarea::placeholder{
+  color: var(--darkPrimary);
+}
 .dark0,
-.dark0 #project .cardProject:last-child:hover,
-.light0 #project .cardProject,
-.light0 .cardProject div a svg,
-.light0 .cardProject div
-{
+.dark0 #project .card:last-child:hover,
+.dark0 #blog .card:last-child:hover,
+.light0 #project .card,
+.light0 #blog .card,
+.light0 .card div a svg,
+.light0 .card div{
   background-image: url('./assets/textilDark.svg');
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
+.dark0 .formulario input,
+.dark0 .formulario textarea,
+.dark0 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary0);
+  color: var(--lightPrimary0);
+}
+
+.dark0 .formulario button {
+  border: 2px solid var(--lightPrimary0);
+  color: var(--lightPrimary0);
+}
+
+.dark0 .formulario button:hover {
+  border: 2px solid var(--lightPrimary0);
+  background-color: var(--lightPrimary0);
+  color: var(--darkPrimary0);
+}
+
+.dark0 .formulario textarea::placeholder {
+  color: var(--lightPrimary0);
+}
 .light0,
-.light0 #project .cardProject:last-child:hover,
-.dark0 #project .cardProject,
-.dark0 .cardProject div a svg,
-.dark0 .cardProject div{
+.light0 #project .card:last-child:hover,
+.light0 #blog .card:last-child:hover,
+.dark0 #project .card,
+.dark0 #blog .card,
+.dark0 .card div a svg,
+.dark0 .card div{
   background-image: url('./assets/textilLight.svg');
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0) ;
   fill: var(--darkPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
+.light0 .formulario input,
+.light0 .formulario textarea,
+.light0 .formulario input::placeholder {
+  color: var(--darkPrimary0);
+  border-bottom: 2px solid var(--darkPrimary0);
+}
+
+.light0 .formulario button {
+  border: 2px solid var(--darkPrimary0);
+  color: var(--darkPrimary0);
+}
+
+.light0 .formulario button:hover {
+  border: 2px solid var(--darkPrimary0);
+  background-color: var(--darkPrimary0);
+  color: var(--lightPrimary0);
+}
+
+.light0 .formulario textarea::placeholder {
+  color: var(--darkPrimary0);
+}
 .dark1,
-.dark1 #project .cardProject:last-child:hover,
-.light1 #project .cardProject,
+.dark1 #project .card:last-child:hover,
+.dark1 #blog .card:last-child:hover,
+.light1 #project .card,
+.light1 #blog .card,
 .light1 div a svg,
-.light1 .cardProject div{
+.light1 .card div{
   background-image: url('./assets/cellsDark.svg');
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1) ;
   fill: var(--lightPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
+.dark1 .formulario input,
+.dark1 .formulario textarea,
+.dark1 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary1);
+  color: var(--lightPrimary1);
+}
+
+.dark1 .formulario button {
+  border: 2px solid var(--lightPrimary1);
+  color: var(--lightPrimary1);
+}
+
+.dark1 .formulario button:hover {
+  border: 2px solid var(--lightPrimary1);
+  background-color: var(--lightPrimary1);
+  color: var(--darkPrimary1);
+}
+
+.dark1 .formulario textarea::placeholder {
+  color: var(--lightPrimary1);
+}
 .light1,
-.light1 #project .cardProject:last-child:hover,
-.dark1 #project .cardProject,
+.light1 #project .card:last-child:hover,
+.light1 #blog .card:last-child:hover,
+.dark1 #project .card,
+.dark1 #blog .card,
 .dark1 div a svg,
-.dark1 .cardProject div{
+.dark1 .card div{
   background-image: url('./assets/cellsLight.svg');
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1) ;
   fill: var(--darkPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
+.light1 .formulario input,
+.light1 .formulario textarea,
+.light1 .formulario input::placeholder {
+  color: var(--darkPrimary1);
+  border-bottom: 2px solid var(--darkPrimary1);
+}
+
+.light1 .formulario button {
+  border: 2px solid var(--darkPrimary1);
+  color: var(--darkPrimary1);
+}
+
+.light1 .formulario button:hover {
+  border: 2px solid var(--darkPrimary1);
+  background-color: var(--darkPrimary1);
+  color: var(--lightPrimary1);
+}
+
+.light1 .formulario textarea::placeholder {
+  color: var(--darkPrimary1);
+}
 .dark2,
-.dark2 #project .cardProject:last-child:hover,
-.light2 #project .cardProject,
+.dark2 #project .card:last-child:hover,
+.dark2 #blog .card:last-child:hover,
+.light2 #project .card,
+.light2 #blog .card,
 .light2 div a svg,
-.light2 .cardProject div{
+.light2 .card div{
   background-image: url('./assets/dotDark.svg');
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2) ;
   fill: var(--lightPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
+.dark2 .formulario input,
+.dark2 .formulario textarea,
+.dark2 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary2);
+  color: var(--lightPrimary2);
+}
+
+.dark2 .formulario button {
+  border: 2px solid var(--lightPrimary2);
+  color: var(--lightPrimary2);
+}
+
+.dark2 .formulario button:hover {
+  border: 2px solid var(--lightPrimary2);
+  background-color: var(--lightPrimary2);
+  color: var(--darkPrimary2);
+}
+
+.dark2 .formulario textarea::placeholder {
+  color: var(--lightPrimary2);
+}
 .light2,
-.light2 #project .cardProject:last-child:hover,
-.dark2 #project .cardProject,
+.light2 #project .card:last-child:hover,
+.light2 #blog .card:last-child:hover,
+.dark2 #project .card,
+.dark2 #blog .card,
 .dark2 div a svg,
-.dark2 .cardProject div{
+.dark2 .card div{
   background-image: url('./assets/dotLigth.svg');
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2) ;
   fill: var(--darkPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
+.light2 .formulario input,
+.light2 .formulario textarea,
+.light2 .formulario input::placeholder {
+  color: var(--darkPrimary2);
+  border-bottom: 2px solid var(--darkPrimary2);
+}
+
+.light2 .formulario button {
+  border: 2px solid var(--darkPrimary2);
+  color: var(--darkPrimary2);
+}
+
+.light2 .formulario button:hover {
+  border: 2px solid var(--darkPrimary2);
+  background-color: var(--darkPrimary2);
+  color: var(--lightPrimary2);
+}
+
+.light2 .formulario textarea::placeholder {
+  color: var(--darkPrimary2);
+}
 .dark3,
-.dark3 #project .cardProject:last-child:hover,
-.light3 #project .cardProject,
+.dark3 #project .card:last-child:hover,
+.dark3 #blog .card:last-child:hover,
+.light3 #project .card,
+.light3 #blog .card,
 .light3 div a svg,
-.light3 .cardProject div{
+.light3 .card div{
   background-image: url('./assets/metalDark.svg');
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3) ;
   fill: var(--lightPrimary3) ;
   transition: background-color .2s ease-in-out;
 }
+.dark3 .formulario input,
+.dark3 .formulario textarea,
+.dark3 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary3);
+  color: var(--lightPrimary3);
+}
+
+.dark3 .formulario button {
+  border: 2px solid var(--lightPrimary3);
+  color: var(--lightPrimary3);
+}
+
+.dark3 .formulario button:hover {
+  border: 2px solid var(--lightPrimary3);
+  background-color: var(--lightPrimary3);
+  color: var(--darkPrimary3);
+}
+
+.dark3 .formulario textarea::placeholder {
+  color: var(--lightPrimary3);
+}
 .light3,
-.light3 #project .cardProject:last-child:hover,
-.dark3 #project .cardProject,
+.light3 #project .card:last-child:hover,
+.light3 #blog .card:last-child:hover,
+.dark3 #project .card,
+.dark3 #blog .card,
 .dark3 div a svg,
-.dark3 .cardProject div{
+.dark3 .card div{
   background-color: var(--lightPrimary3);
   background-image: url('./assets/metalLight.svg');
   color: var(--darkPrimary3) ;
   fill: var(--darkPrimary3) ;
   transition: background-color .2s ease-in-out;
 }
+.light3 .formulario input,
+.light3 .formulario textarea,
+.light3 .formulario input::placeholder {
+  color: var(--darkPrimary3);
+  border-bottom: 2px solid var(--darkPrimary3);
+}
+
+.light3 .formulario button {
+  border: 2px solid var(--darkPrimary3);
+  color: var(--darkPrimary3);
+}
+
+.light3 .formulario button:hover {
+  border: 2px solid var(--darkPrimary3);
+  background-color: var(--darkPrimary3);
+  color: var(--lightPrimary3);
+}
+
+.light3 .formulario textarea::placeholder {
+  color: var(--darkPrimary3);
+}
 .dark4,
-.dark4 #project .cardProject:last-child:hover,
-.light4 #project .cardProject,
+.dark4 #project .card:last-child:hover,
+.dark4 #blog .card:last-child:hover,
+.light4 #project .card,
+.light4 #blog .card,
 .light4 div a svg,
-.light4 .cardProject div{
+.light4 .card div{
   background-image: url('./assets/pillsDark.svg');
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4) ;
   fill: var(--lightPrimary4) ;
   transition: background-color .2s ease-in-out;
 }
+.dark4 .formulario input,
+.dark4 .formulario textarea,
+.dark4 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary4);
+  color: var(--lightPrimary4);
+}
+
+.dark4 .formulario button {
+  border: 2px solid var(--lightPrimary4);
+  color: var(--lightPrimary4);
+}
+
+.dark4 .formulario button:hover {
+  border: 2px solid var(--lightPrimary4);
+  background-color: var(--lightPrimary4);
+  color: var(--darkPrimary4);
+}
+
+.dark4 .formulario textarea::placeholder {
+  color: var(--lightPrimary4);
+}
 .light4,
-.light4 #project .cardProject:last-child:hover,
-.dark4 #project .cardProject,
+.light4 #project .card:last-child:hover,
+.light4 #blog .card:last-child:hover,
+.dark4 #project .card,
+.dark4 #blog .card,
 .dark4 div a svg,
-.dark4 .cardProject div{
+.dark4 .card div{
   background-image: url('./assets/pillsLight.svg');
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4) ;
   fill: var(--darkPrimary4) ;
   transition: background-color .2s ease-in-out;
 }
+.light4 .formulario input,
+.light4 .formulario textarea,
+.light4 .formulario input::placeholder {
+  color: var(--darkPrimary4);
+  border-bottom: 2px solid var(--darkPrimary4);
+}
+
+.light4 .formulario button {
+  border: 2px solid var(--darkPrimary4);
+  color: var(--darkPrimary4);
+}
+
+.light4 .formulario button:hover {
+  border: 2px solid var(--darkPrimary4);
+  background-color: var(--darkPrimary4);
+  color: var(--lightPrimary4);
+}
+
+.light4 .formulario textarea::placeholder {
+  color: var(--darkPrimary4);
+}
 .dark5,
-.dark5 #project .cardProject:last-child:hover,
-.light5 #project .cardProject,
+.dark5 #project .card:last-child:hover,
+.dark5 #blog .card:last-child:hover,
+.light5 #project .card,
+.light5 #blog .card,
 .light5 div a svg,
-.light5 .cardProject div{
+.light5 .card div{
   background-color: var(--darkPrimary5);
   color: var(--lightPrimary5) ;
   fill: var(--lightPrimary5) ;
   transition: background-color .2s ease-in-out;
 }
+.dark5 .formulario input,
+.dark5 .formulario textarea,
+.dark5 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary5);
+  color: var(--lightPrimary5);
+}
+
+.dark5 .formulario button {
+  border: 2px solid var(--lightPrimary5);
+  color: var(--lightPrimary5);
+}
+
+.dark5 .formulario button:hover {
+  border: 2px solid var(--lightPrimary5);
+  background-color: var(--lightPrimary5);
+  color: var(--darkPrimary5);
+}
+
+.dark5 .formulario textarea::placeholder {
+  color: var(--lightPrimary5);
+}
 .light5,
-.light5 #project .cardProject:last-child:hover,
-.dark5 #project .cardProject,
+.light5 #project .card:last-child:hover,
+.light5 #blog .card:last-child:hover,
+.dark5 #project .card,
+.dark5 #blog .card,
 .dark5 div a svg,
-.dark5 .cardProject div{
+.dark5 .card div{
   background-color: var(--lightPrimary5);
   color: var(--darkPrimary5) ;
   fill: var(--darkPrimary5) ;
   transition: background-color .2s ease-in-out;
 }
+.light5 .formulario input,
+.light5 .formulario textarea,
+.light5 .formulario input::placeholder {
+  color: var(--darkPrimary5);
+  border-bottom: 2px solid var(--darkPrimary5);
+}
+
+.light5 .formulario button {
+  border: 2px solid var(--darkPrimary5);
+  color: var(--darkPrimary5);
+}
+
+.light5 .formulario button:hover {
+  border: 2px solid var(--darkPrimary5);
+  background-color: var(--darkPrimary5);
+  color: var(--lightPrimary5);
+}
+
+.light5 .formulario textarea::placeholder {
+  color: var(--darkPrimary5);
+}
 .dark6,
-.dark6 #project .cardProject:last-child:hover,
-.light6 #project .cardProject,
+.dark6 #project .card:last-child:hover,
+.dark6 #blog .card:last-child:hover,
+.light6 #project .card,
+.light6 #blog .card,
 .light6 div a svg,
-.light6 .cardProject div{
+.light6 .card div{
   background-color: var(--darkPrimary6);
   color: var(--lightPrimary6) ;
   fill: var(--lightPrimary6) ;
   transition: background-color .2s ease-in-out;
 }
+.dark6 .formulario input,
+.dark6 .formulario textarea,
+.dark6 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary6);
+  color: var(--lightPrimary6);
+}
+
+.dark6 .formulario button {
+  border: 2px solid var(--lightPrimary6);
+  color: var(--lightPrimary6);
+}
+
+.dark6 .formulario button:hover {
+  border: 2px solid var(--lightPrimary6);
+  background-color: var(--lightPrimary6);
+  color: var(--darkPrimary6);
+}
+
+.dark6 .formulario textarea::placeholder {
+  color: var(--lightPrimary6);
+}
 .light6,
-.light6 #project .cardProject:last-child:hover,
-.dark6 #project .cardProject,
+.light6 #project .card:last-child:hover,
+.light6 #blog .card:last-child:hover,
+.dark6 #project .card,
+.dark6 #blog .card,
 .dark6 div a svg,
-.dark6 .cardProject div{
+.dark6 .card div{
   background-color: var(--lightPrimary6);
   color: var(--darkPrimary6) ;
   fill: var(--darkPrimary6) ;
   transition: background-color .2s ease-in-out;
 }
+.light6 .formulario input,
+.light6 .formulario textarea,
+.light6 .formulario input::placeholder {
+  color: var(--darkPrimary6);
+  border-bottom: 2px solid var(--darkPrimary6);
+}
+
+.light6 .formulario button {
+  border: 2px solid var(--darkPrimary6);
+  color: var(--darkPrimary6);
+}
+
+.light6 .formulario button:hover {
+  border: 2px solid var(--darkPrimary6);
+  background-color: var(--darkPrimary6);
+  color: var(--lightPrimary6);
+}
+
+.light6 .formulario textarea::placeholder {
+  color: var(--darkPrimary6);
+}
 .dark7,
-.dark7 #project .cardProject:last-child:hover,
-.light7 #project .cardProject,
+.dark7 #project .card:last-child:hover,
+.dark7 #blog .card:last-child:hover,
+.light7 #project .card,
+.light7 #blog .card,
 .light7 div a svg,
-.light7 .cardProject div{
+.light7 .card div{
   background-color: var(--darkPrimary7);
   color: var(--lightPrimary7) ;
   fill: var(--lightPrimary7) ;
   transition: background-color .2s ease-in-out;
 }
+.dark7 .formulario input,
+.dark7 .formulario textarea,
+.dark7 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary7);
+  color: var(--lightPrimary7);
+}
+
+.dark7 .formulario button {
+  border: 2px solid var(--lightPrimary7);
+  color: var(--lightPrimary7);
+}
+
+.dark7 .formulario button:hover {
+  border: 2px solid var(--lightPrimary7);
+  background-color: var(--lightPrimary7);
+  color: var(--darkPrimary7);
+}
+
+.dark7 .formulario textarea::placeholder {
+  color: var(--lightPrimary7);
+}
 .light7,
-.light7 #project .cardProject:last-child:hover,
-.dark7 #project .cardProject,
+.light7 #project .card:last-child:hover,
+.light7 #blog .card:last-child:hover,
+.dark7 #project .card,
+.dark7 #blog .card,
 .dark7 div a svg,
-.dark7 .cardProject div{
+.dark7 .card div{
   background-color: var(--lightPrimary7);
   color: var(--darkPrimary7) ;
   fill: var(--darkPrimary7) ;
   transition: background-color .2s ease-in-out;
 }
+.light7 .formulario input,
+.light7 .formulario textarea,
+.light7 .formulario input::placeholder {
+  color: var(--darkPrimary7);
+  border-bottom: 2px solid var(--darkPrimary7);
+}
+
+.light7 .formulario button {
+  border: 2px solid var(--darkPrimary7);
+  color: var(--darkPrimary7);
+}
+
+.light7 .formulario button:hover {
+  border: 2px solid var(--darkPrimary7);
+  background-color: var(--darkPrimary7);
+  color: var(--lightPrimary7);
+}
+
+.light7 .formulario textarea::placeholder {
+  color: var(--darkPrimary7);
+}
 .dark8,
-.dark8 #project .cardProject:last-child:hover,
-.light8 #project .cardProject,
+.dark8 #project .card:last-child:hover,
+.dark8 #blog .card:last-child:hover,
+.light8 #project .card,
+.light8 #blog .card,
 .light8 div a svg,
-.light8 .cardProject div{
+.light8 .card div{
   background-color: var(--darkPrimary8);
   color: var(--lightPrimary8) ;
   fill: var(--lightPrimary8) ;
   transition: background-color .2s ease-in-out;
 }
+.dark8 .formulario input,
+.dark8 .formulario textarea,
+.dark8 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary8);
+  color: var(--lightPrimary8);
+}
+
+.dark8 .formulario button {
+  border: 2px solid var(--lightPrimary8);
+  color: var(--lightPrimary8);
+}
+
+.dark8 .formulario button:hover {
+  border: 2px solid var(--lightPrimary8);
+  background-color: var(--lightPrimary8);
+  color: var(--darkPrimary8);
+}
+
+.dark8 .formulario textarea::placeholder {
+  color: var(--lightPrimary8);
+}
 .light8,
-.light8 #project .cardProject:last-child:hover,
-.dark8 #project .cardProject,
+.light8 #project .card:last-child:hover,
+.light8 #blog .card:last-child:hover,
+.dark8 #project .card,
+.dark8 #blog .card,
 .dark8 div a svg,
-.dark8 .cardProject div{
+.dark8 .card div{
   background-color: var(--lightPrimary8);
   color: var(--darkPrimary8) ;
   fill: var(--darkPrimary8) ;
   transition: background-color .2s ease-in-out;
 }
+.light8 .formulario input,
+.light8 .formulario textarea,
+.light8 .formulario input::placeholder {
+  color: var(--darkPrimary8);
+  border-bottom: 2px solid var(--darkPrimary8);
+}
+
+.light8 .formulario button {
+  border: 2px solid var(--darkPrimary8);
+  color: var(--darkPrimary8);
+}
+
+.light8 .formulario button:hover {
+  border: 2px solid var(--darkPrimary8);
+  background-color: var(--darkPrimary8);
+  color: var(--lightPrimary8);
+}
+
+.light8 .formulario textarea::placeholder {
+  color: var(--darkPrimary8);
+}
 .dark9,
-.dark9 #project .cardProject:last-child:hover,
-.light9 #project .cardProject,
+.dark9 #project .card:last-child:hover,
+.dark9 #blog .card:last-child:hover,
+.light9 #project .card,
+.light9 #blog .card,
 .light9 div a svg,
-.light9 .cardProject div{
+.light9 .card div{
   background-image: url('./assets/circleDark.svg');
   background-size: 32px;
   background-color: var(--darkPrimary9);
@@ -248,15 +703,59 @@
   fill: var(--lightPrimary9) ;
   transition: background-color .2s ease-in-out;
 }
+.dark9 .formulario input,
+.dark9 .formulario textarea,
+.dark9 .formulario input::placeholder {
+  border-bottom: 2px solid var(--lightPrimary9);
+  color: var(--lightPrimary9);
+}
+
+.dark9 .formulario button {
+  border: 2px solid var(--lightPrimary9);
+  color: var(--lightPrimary9);
+}
+
+.dark9 .formulario button:hover {
+  border: 2px solid var(--lightPrimary9);
+  background-color: var(--lightPrimary9);
+  color: var(--darkPrimary9);
+}
+
+.dark9 .formulario textarea::placeholder {
+  color: var(--lightPrimary9);
+}
 .light9,
-.light9 #project .cardProject:last-child:hover,
-.dark9 #project .cardProject,
+.light9 #project .card:last-child:hover,
+.light9 #blog .card:last-child:hover,
+.dark9 #project .card,
+.dark9 #blog .card,
 .dark9 div a svg,
-.dark9 .cardProject div{
+.dark9 .card div{
   background-image: url('./assets/circleLight.svg');
   background-size: 32px;
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9) ;
   fill: var(--darkPrimary9) ;
   transition: background-color .2s ease-in-out;
+}
+.light9 .formulario input,
+.light9 .formulario textarea,
+.light9 .formulario input::placeholder {
+  color: var(--darkPrimary9);
+  border-bottom: 2px solid var(--darkPrimary9);
+}
+
+.light9 .formulario button {
+  border: 2px solid var(--darkPrimary9);
+  color: var(--darkPrimary9);
+}
+
+.light9 .formulario button:hover {
+  border: 2px solid var(--darkPrimary9);
+  background-color: var(--darkPrimary9);
+  color: var(--lightPrimary9);
+}
+
+.light9 .formulario textarea::placeholder {
+  color: var(--darkPrimary9);
 }

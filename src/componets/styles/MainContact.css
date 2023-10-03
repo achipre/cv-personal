@@ -1,0 +1,54 @@
+#contact{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+}
+#contact h2{
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  gap: 1rem;
+}
+.formulario input{
+  font-family: 'PassionOne';
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+}
+.formulario textarea{
+  font-family: 'PassionOne';
+  background-color: transparent;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  resize: none;
+  outline: none;
+  border: none;
+  height: 40vh;
+  
+}
+.formulario input::placeholder,
+.formulario textarea::placeholder{
+  opacity: .35;
+  background-color: transparent;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+}
+.formulario button{
+  margin-top: 1rem;
+  cursor: pointer;
+  align-self: center;
+  width: 40%;
+  font-family: 'PassionOne';
+  line-height: 1.5;
+  border: none;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  background-color: transparent;
+}
+#contact p{
+  font-family: 'SixCaps';
+  align-self: center;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+}

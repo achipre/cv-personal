@@ -4,7 +4,7 @@ import './styles/MainProject.css'
 export const MainProjects = () => {
   return (
     <article id="project">
-      <article className="cardProject">
+      <article className="card cardProject">
         <h2>Encritador Web</h2>
         <img
           src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/128ea8179695863.Y3JvcCwzMDY4LDI0MDAsNjgsMA.png"
@@ -19,7 +19,7 @@ export const MainProjects = () => {
           </a>
         </div>
       </article>
-      <article className="cardProject">
+      <article className="card cardProject">
         <h2>Encritador Web</h2>
         <img
           src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/9d23c864122637.612e2b21f17c2.jpg"
@@ -34,7 +34,7 @@ export const MainProjects = () => {
           </a>
         </div>
       </article>
-      <article className="cardProject">
+      <article className="card cardProject">
         <h2>Encritador Web</h2>
         <img
           src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a01bb7179962165.Y3JvcCwzMDY4LDI0MDAsNjgsMA.png"
@@ -49,7 +49,7 @@ export const MainProjects = () => {
           </a>
         </div>
       </article>
-      <article className="cardProject">
+      <article className="card cardProject">
         <h2>Encritador Web para que no hagas</h2>
         <div>
           <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
@@ -60,7 +60,7 @@ export const MainProjects = () => {
           </a>
         </div>
       </article>
-      <article className="cardProject">
+      <article className="card cardProject">
         <h2>Encritador Web</h2>
         <img
           src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2fdc08178998937.Y3JvcCwxNjE2LDEyNjQsMCww.png"
@@ -76,7 +76,7 @@ export const MainProjects = () => {
         </div>
       </article>
       <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-        <article className="cardProject">
+        <article className="card cardProject">
           <h2>Ver Mas</h2>
           <svg className='cursorPlus'
             width="38"
