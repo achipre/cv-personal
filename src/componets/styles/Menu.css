@@ -344,11 +344,10 @@
 .socials a svg{
   width: clamp(36px, 6vw, 62px);
   height: clamp(36px, 6vw, 62px);
-  /* width: 6vw;
-  height: 6vw; */
   transition: transform .3s ease-in-out;
 }
-.socials a svg:hover{
+.socials a svg:hover,
+.cardProject div a:hover{
   transform: scale(1.15);
   transition: transform .3s ease-in-out;
 }

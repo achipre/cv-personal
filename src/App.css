@@ -22,139 +22,225 @@
   --lightPrimary8: #c764fc;
   --lightPrimary9: #82f184;
 }
-.dark{
+.dark,
+.dark #project .cardProject:last-child:hover,
+.light #project .cardProject,
+.light div a svg,
+.light .cardProject div
+{
   background-image: url('./assets/techLight.svg');
   background-color: var(--darkPrimary);
   color: var(--lightPrimary) ;
   fill: var(--lightPrimary) ;
   transition: background-color .2s ease-in-out;
 }
-.light{
+.light,
+.light #project .cardProject:last-child:hover,
+.dark #project .cardProject,
+.dark .cardProject div a svg,
+.dark .cardProject div{
   background-image: url('./assets/techDark.svg');
   background-color: var(--lightPrimary);
   color: var(--darkPrimary) ;
   fill: var(--darkPrimary) ;
   transition: background-color .2s ease-in-out;
 }
-.dark0{
+.dark0,
+.dark0 #project .cardProject:last-child:hover,
+.light0 #project .cardProject,
+.light0 .cardProject div a svg,
+.light0 .cardProject div
+{
   background-image: url('./assets/textilDark.svg');
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
-.light0{
+.light0,
+.light0 #project .cardProject:last-child:hover,
+.dark0 #project .cardProject,
+.dark0 .cardProject div a svg,
+.dark0 .cardProject div{
   background-image: url('./assets/textilLight.svg');
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0) ;
   fill: var(--darkPrimary0) ;
   transition: background-color .2s ease-in-out;
 }
-.dark1{
+.dark1,
+.dark1 #project .cardProject:last-child:hover,
+.light1 #project .cardProject,
+.light1 div a svg,
+.light1 .cardProject div{
   background-image: url('./assets/cellsDark.svg');
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1) ;
   fill: var(--lightPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
-.light1{
+.light1,
+.light1 #project .cardProject:last-child:hover,
+.dark1 #project .cardProject,
+.dark1 div a svg,
+.dark1 .cardProject div{
   background-image: url('./assets/cellsLight.svg');
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1) ;
   fill: var(--darkPrimary1) ;
   transition: background-color .2s ease-in-out;
 }
-.dark2{
+.dark2,
+.dark2 #project .cardProject:last-child:hover,
+.light2 #project .cardProject,
+.light2 div a svg,
+.light2 .cardProject div{
   background-image: url('./assets/dotDark.svg');
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2) ;
   fill: var(--lightPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
-.light2{
+.light2,
+.light2 #project .cardProject:last-child:hover,
+.dark2 #project .cardProject,
+.dark2 div a svg,
+.dark2 .cardProject div{
   background-image: url('./assets/dotLigth.svg');
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2) ;
   fill: var(--darkPrimary2) ;
   transition: background-color .2s ease-in-out;
 }
-.dark3{
+.dark3,
+.dark3 #project .cardProject:last-child:hover,
+.light3 #project .cardProject,
+.light3 div a svg,
+.light3 .cardProject div{
   background-image: url('./assets/metalDark.svg');
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3) ;
   fill: var(--lightPrimary3) ;
   transition: background-color .2s ease-in-out;
 }
-.light3{
+.light3,
+.light3 #project .cardProject:last-child:hover,
+.dark3 #project .cardProject,
+.dark3 div a svg,
+.dark3 .cardProject div{
   background-color: var(--lightPrimary3);
   background-image: url('./assets/metalLight.svg');
   color: var(--darkPrimary3) ;
   fill: var(--darkPrimary3) ;
   transition: background-color .2s ease-in-out;
 }
-.dark4{
+.dark4,
+.dark4 #project .cardProject:last-child:hover,
+.light4 #project .cardProject,
+.light4 div a svg,
+.light4 .cardProject div{
   background-image: url('./assets/pillsDark.svg');
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4) ;
   fill: var(--lightPrimary4) ;
   transition: background-color .2s ease-in-out;
 }
-.light4{
+.light4,
+.light4 #project .cardProject:last-child:hover,
+.dark4 #project .cardProject,
+.dark4 div a svg,
+.dark4 .cardProject div{
   background-image: url('./assets/pillsLight.svg');
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4) ;
   fill: var(--darkPrimary4) ;
   transition: background-color .2s ease-in-out;
 }
-.dark5{
+.dark5,
+.dark5 #project .cardProject:last-child:hover,
+.light5 #project .cardProject,
+.light5 div a svg,
+.light5 .cardProject div{
   background-color: var(--darkPrimary5);
   color: var(--lightPrimary5) ;
   fill: var(--lightPrimary5) ;
   transition: background-color .2s ease-in-out;
 }
-.light5{
+.light5,
+.light5 #project .cardProject:last-child:hover,
+.dark5 #project .cardProject,
+.dark5 div a svg,
+.dark5 .cardProject div{
   background-color: var(--lightPrimary5);
   color: var(--darkPrimary5) ;
   fill: var(--darkPrimary5) ;
   transition: background-color .2s ease-in-out;
 }
-.dark6{
+.dark6,
+.dark6 #project .cardProject:last-child:hover,
+.light6 #project .cardProject,
+.light6 div a svg,
+.light6 .cardProject div{
   background-color: var(--darkPrimary6);
   color: var(--lightPrimary6) ;
   fill: var(--lightPrimary6) ;
   transition: background-color .2s ease-in-out;
 }
-.light6{
+.light6,
+.light6 #project .cardProject:last-child:hover,
+.dark6 #project .cardProject,
+.dark6 div a svg,
+.dark6 .cardProject div{
   background-color: var(--lightPrimary6);
   color: var(--darkPrimary6) ;
   fill: var(--darkPrimary6) ;
   transition: background-color .2s ease-in-out;
 }
-.dark7{
+.dark7,
+.dark7 #project .cardProject:last-child:hover,
+.light7 #project .cardProject,
+.light7 div a svg,
+.light7 .cardProject div{
   background-color: var(--darkPrimary7);
   color: var(--lightPrimary7) ;
   fill: var(--lightPrimary7) ;
   transition: background-color .2s ease-in-out;
 }
-.light7{
+.light7,
+.light7 #project .cardProject:last-child:hover,
+.dark7 #project .cardProject,
+.dark7 div a svg,
+.dark7 .cardProject div{
   background-color: var(--lightPrimary7);
   color: var(--darkPrimary7) ;
   fill: var(--darkPrimary7) ;
   transition: background-color .2s ease-in-out;
 }
-.dark8{
+.dark8,
+.dark8 #project .cardProject:last-child:hover,
+.light8 #project .cardProject,
+.light8 div a svg,
+.light8 .cardProject div{
   background-color: var(--darkPrimary8);
   color: var(--lightPrimary8) ;
   fill: var(--lightPrimary8) ;
   transition: background-color .2s ease-in-out;
 }
-.light8{
+.light8,
+.light8 #project .cardProject:last-child:hover,
+.dark8 #project .cardProject,
+.dark8 div a svg,
+.dark8 .cardProject div{
   background-color: var(--lightPrimary8);
   color: var(--darkPrimary8) ;
   fill: var(--darkPrimary8) ;
   transition: background-color .2s ease-in-out;
 }
-.dark9{
+.dark9,
+.dark9 #project .cardProject:last-child:hover,
+.light9 #project .cardProject,
+.light9 div a svg,
+.light9 .cardProject div{
   background-image: url('./assets/circleDark.svg');
   background-size: 32px;
   background-color: var(--darkPrimary9);
@@ -162,7 +248,11 @@
   fill: var(--lightPrimary9) ;
   transition: background-color .2s ease-in-out;
 }
-.light9{
+.light9,
+.light9 #project .cardProject:last-child:hover,
+.dark9 #project .cardProject,
+.dark9 div a svg,
+.dark9 .cardProject div{
   background-image: url('./assets/circleLight.svg');
   background-size: 32px;
   background-color: var(--lightPrimary9);

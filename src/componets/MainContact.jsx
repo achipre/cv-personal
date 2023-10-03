@@ -1,8 +1,8 @@
-import './styles/MainHome.css'
+import './styles/MainContact.css'
 
 export const MainContact = () => {
   return (
-    <article>
+    <article id='contact'>
       <h1>ALEX CHIPRE</h1>
       <h2>Full Stack Developer</h2>
       <p>
