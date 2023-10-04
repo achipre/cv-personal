@@ -34,7 +34,7 @@
   background-color: var(--darkPrimary);
   color: var(--lightPrimary) ;
   fill: var(--lightPrimary) ;
-  transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
 }
 .dark .formulario input,
 .dark .formulario textarea,
@@ -51,6 +51,14 @@
   background-color: var(--lightPrimary) ;
   color: var(--darkPrimary) ;
 }
+.light .iconSvg{
+  background-color: var(--lightPrimary) ;
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.light .iconSvg{
+  box-shadow: 0 0 0 5px var(--lightPrimary);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark .formulario textarea::placeholder{
   color: var(--lightPrimary) ;
 }
@@ -59,13 +67,13 @@
 .light #blog .card:last-child:hover,
 .dark #project .card,
 .dark #blog .card,
-.dark .card div a svg,
+.dark div a svg,
 .dark .card div{
   background-image: url('./assets/techDark.svg');
   background-color: var(--lightPrimary);
   color: var(--darkPrimary) ;
   fill: var(--darkPrimary) ;
-  transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
 }
 .light .formulario input,
 .light .formulario textarea,
@@ -77,10 +85,18 @@
   border: 2px solid var(--darkPrimary);
   color: var(--darkPrimary);
 }
-.light .formulario button:hover {
+.light .formulario button:hover{
   border: 2px solid var(--darkPrimary);
   background-color: var(--darkPrimary);
   color: var(--lightPrimary);
+}
+.dark .iconSvg {
+  background-color: var(--darkPrimary);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.dark .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 .light .formulario textarea::placeholder{
   color: var(--darkPrimary);
@@ -96,7 +112,7 @@
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
-  transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
 }
 .dark0 .formulario input,
 .dark0 .formulario textarea,
@@ -114,10 +130,20 @@
   border: 2px solid var(--lightPrimary0);
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
+  transition: background-color .2s ease-in-out,
+}
+.light0 .iconSvg {
+  background-color: var(--lightPrimary0);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 
+.light0 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary0);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark0 .formulario textarea::placeholder {
   color: var(--lightPrimary0);
+
 }
 .light0,
 .light0 #project .card:last-child:hover,
@@ -149,7 +175,15 @@
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
 }
+.dark0 .iconSvg {
+  background-color: var(--darkPrimary0);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark0 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary0);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light0 .formulario textarea::placeholder {
   color: var(--darkPrimary0);
 }
@@ -183,7 +217,15 @@
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1);
 }
+.light1 .iconSvg {
+  background-color: var(--lightPrimary1);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light1 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary1);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark1 .formulario textarea::placeholder {
   color: var(--lightPrimary1);
 }
@@ -217,7 +259,15 @@
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1);
 }
+.dark1 .iconSvg {
+  background-color: var(--darkPrimary1);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark1 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary1);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light1 .formulario textarea::placeholder {
   color: var(--darkPrimary1);
 }
@@ -251,7 +301,15 @@
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2);
 }
+.light2 .iconSvg {
+  background-color: var(--lightPrimary2);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light2 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary2);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark2 .formulario textarea::placeholder {
   color: var(--lightPrimary2);
 }
@@ -285,7 +343,15 @@
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2);
 }
+.dark2 .iconSvg {
+  background-color: var(--darkPrimary2);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark2 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary2);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light2 .formulario textarea::placeholder {
   color: var(--darkPrimary2);
 }
@@ -319,7 +385,15 @@
   background-color: var(--lightPrimary3);
   color: var(--darkPrimary3);
 }
+.light3 .iconSvg {
+  background-color: var(--lightPrimary3);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light3 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary3);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark3 .formulario textarea::placeholder {
   color: var(--lightPrimary3);
 }
@@ -353,7 +427,15 @@
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3);
 }
+.dark3 .iconSvg {
+  background-color: var(--darkPrimary3);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark3 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary3);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light3 .formulario textarea::placeholder {
   color: var(--darkPrimary3);
 }
@@ -387,7 +469,15 @@
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4);
 }
+.light4 .iconSvg {
+  background-color: var(--lightPrimary4);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light4 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary4);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark4 .formulario textarea::placeholder {
   color: var(--lightPrimary4);
 }
@@ -421,7 +511,15 @@
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4);
 }
+.dark4 .iconSvg {
+  background-color: var(--darkPrimary4);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark4 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary4);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light4 .formulario textarea::placeholder {
   color: var(--darkPrimary4);
 }
@@ -454,7 +552,15 @@
   background-color: var(--lightPrimary5);
   color: var(--darkPrimary5);
 }
+.light5 .iconSvg {
+  background-color: var(--lightPrimary5);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light5 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary5);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark5 .formulario textarea::placeholder {
   color: var(--lightPrimary5);
 }
@@ -487,7 +593,15 @@
   background-color: var(--darkPrimary5);
   color: var(--lightPrimary5);
 }
+.dark5 .iconSvg {
+  background-color: var(--darkPrimary5);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark5 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary5);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light5 .formulario textarea::placeholder {
   color: var(--darkPrimary5);
 }
@@ -520,7 +634,15 @@
   background-color: var(--lightPrimary6);
   color: var(--darkPrimary6);
 }
+.light6 .iconSvg {
+  background-color: var(--lightPrimary6);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light6 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary6);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark6 .formulario textarea::placeholder {
   color: var(--lightPrimary6);
 }
@@ -553,7 +675,15 @@
   background-color: var(--darkPrimary6);
   color: var(--lightPrimary6);
 }
+.dark6 .iconSvg {
+  background-color: var(--darkPrimary6);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark6 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary6);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light6 .formulario textarea::placeholder {
   color: var(--darkPrimary6);
 }
@@ -586,7 +716,15 @@
   background-color: var(--lightPrimary7);
   color: var(--darkPrimary7);
 }
+.light7 .iconSvg {
+  background-color: var(--lightPrimary7);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light7 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary7);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark7 .formulario textarea::placeholder {
   color: var(--lightPrimary7);
 }
@@ -619,7 +757,15 @@
   background-color: var(--darkPrimary7);
   color: var(--lightPrimary7);
 }
+.dark7 .iconSvg {
+  background-color: var(--darkPrimary7);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark7 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary7);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light7 .formulario textarea::placeholder {
   color: var(--darkPrimary7);
 }
@@ -652,7 +798,15 @@
   background-color: var(--lightPrimary8);
   color: var(--darkPrimary8);
 }
+.light8 .iconSvg {
+  background-color: var(--lightPrimary8);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light8 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary8);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark8 .formulario textarea::placeholder {
   color: var(--lightPrimary8);
 }
@@ -685,7 +839,15 @@
   background-color: var(--darkPrimary8);
   color: var(--lightPrimary8);
 }
+.dark8 .iconSvg {
+  background-color: var(--darkPrimary8);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.dark8 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary8);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .light8 .formulario textarea::placeholder {
   color: var(--darkPrimary8);
 }
@@ -720,7 +882,15 @@
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9);
 }
+.light9 .iconSvg {
+  background-color: var(--lightPrimary9);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 
+.light9 .iconSvg {
+  box-shadow: 0 0 0 5px var(--lightPrimary9);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
 .dark9 .formulario textarea::placeholder {
   color: var(--lightPrimary9);
 }
@@ -744,18 +914,15 @@
   color: var(--darkPrimary9);
   border-bottom: 2px solid var(--darkPrimary9);
 }
-
-.light9 .formulario button {
-  border: 2px solid var(--darkPrimary9);
-  color: var(--darkPrimary9);
-}
-
-.light9 .formulario button:hover {
-  border: 2px solid var(--darkPrimary9);
-  background-color: var(--darkPrimary9);
+.dark9 .formulario button {
+  border: 2px solid var(--lightPrimary9);
   color: var(--lightPrimary9);
 }
-
+.dark9 .formulario button:hover {
+  border: 2px solid var(--lightPrimary9);
+  background-color: var(--lightPrimary9);
+  color: var(--darkPrimary9);
+}
 .light9 .formulario textarea::placeholder {
   color: var(--darkPrimary9);
 }

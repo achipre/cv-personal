@@ -20,7 +20,6 @@
   padding: 4px;
   box-sizing: border-box;
 }
-
 .moon,
 .sun {
    right: clamp(42px, 6vw, 62px);
@@ -39,89 +38,135 @@
 .iconMenu{
   z-index: 9;
 }
-.menudark {
+header .iconMenu .menudark{
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary);
 }
-.menulight {
+header .iconMenu .menulight{
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary);
+  transition: none;
 }
-
-.menudark0 {
+header .iconMenu .menudark0 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary0);
 }
-
-.menulight0 {
+header .iconMenu .menulight0 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary0);
 }
-
-.menudark1 {
+header .iconMenu .menudark1 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary1);
 }
-
-.menulight1 {
+header .iconMenu .menulight1 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary1);
 }
-
-.menudark2 {
+header .iconMenu .menudark2 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary2);
 }
-
-.menulight2 {
+header .iconMenu .menulight2 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary2);
 }
-
-.menudark3 {
+header .iconMenu .menudark3 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary3);
 }
-
-.menulight3 {
+header .iconMenu .menulight3 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary3);
 }
-
-.menudark4 {
+header .iconMenu .menudark4 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary4);
 }
-
-.menulight4 {
+header .iconMenu .menulight4 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary4);
 }
-
-.menudark5 {
+header .iconMenu .menudark5 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary5);
 }
-
-.menulight5 {
+header .iconMenu .menulight5 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary5);
 }
-
-.menudark6 {
+header .iconMenu .menudark6 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary6);
 }
-
-.menulight6 {
+header .iconMenu .menulight6 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary6);
 }
-
-.menudark7 {
+header .iconMenu .menudark7 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary7);
 }
-
-.menulight7 {
+header .iconMenu .menulight7 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary7);
 }
-
-.menudark8 {
+header .iconMenu .menudark8 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary8);
 }
-
-.menulight8 {
+header .iconMenu .menulight8 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary8);
 }
-
-.menudark9 {
+header .iconMenu .menudark9 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--darkPrimary9);
 }
-
-.menulight9 {
+header .iconMenu .menulight9 {
+  transition: none;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: transparent;
   fill: var(--lightPrimary9);
 }
