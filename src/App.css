@@ -26,6 +26,7 @@
 .dark #project .card:last-child:hover,
 .dark #blog .card:last-child:hover,
 .light #project .card,
+.light #blog .card a,
 .light #blog .card,
 .light div a svg,
 .light .card div
@@ -60,12 +61,13 @@
   transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 .dark .formulario textarea::placeholder{
-  color: var(--lightPrimary) ;
+  color: var(--lightPrimary);
 }
 .light,
 .light #project .card:last-child:hover,
 .light #blog .card:last-child:hover,
 .dark #project .card,
+.dark #blog .card a,
 .dark #blog .card,
 .dark div a svg,
 .dark .card div{
@@ -105,6 +107,7 @@
 .dark0 #project .card:last-child:hover,
 .dark0 #blog .card:last-child:hover,
 .light0 #project .card,
+.light0 #blog .card a,
 .light0 #blog .card,
 .light0 .card div a svg,
 .light0 .card div{
@@ -149,6 +152,7 @@
 .light0 #project .card:last-child:hover,
 .light0 #blog .card:last-child:hover,
 .dark0 #project .card,
+.dark0 #blog .card a,
 .dark0 #blog .card,
 .dark0 .card div a svg,
 .dark0 .card div{
@@ -191,6 +195,7 @@
 .dark1 #project .card:last-child:hover,
 .dark1 #blog .card:last-child:hover,
 .light1 #project .card,
+.light1 #blog .card a,
 .light1 #blog .card,
 .light1 div a svg,
 .light1 .card div{
@@ -233,6 +238,7 @@
 .light1 #project .card:last-child:hover,
 .light1 #blog .card:last-child:hover,
 .dark1 #project .card,
+.dark1 #blog .card a,
 .dark1 #blog .card,
 .dark1 div a svg,
 .dark1 .card div{
@@ -275,6 +281,7 @@
 .dark2 #project .card:last-child:hover,
 .dark2 #blog .card:last-child:hover,
 .light2 #project .card,
+.light2 #blog .card a,
 .light2 #blog .card,
 .light2 div a svg,
 .light2 .card div{
@@ -317,6 +324,7 @@
 .light2 #project .card:last-child:hover,
 .light2 #blog .card:last-child:hover,
 .dark2 #project .card,
+.dark2 #blog .card a,
 .dark2 #blog .card,
 .dark2 div a svg,
 .dark2 .card div{
@@ -359,6 +367,7 @@
 .dark3 #project .card:last-child:hover,
 .dark3 #blog .card:last-child:hover,
 .light3 #project .card,
+.light3 #blog .card a,
 .light3 #blog .card,
 .light3 div a svg,
 .light3 .card div{
@@ -401,6 +410,7 @@
 .light3 #project .card:last-child:hover,
 .light3 #blog .card:last-child:hover,
 .dark3 #project .card,
+.dark3 #blog .card a,
 .dark3 #blog .card,
 .dark3 div a svg,
 .dark3 .card div{
@@ -443,6 +453,7 @@
 .dark4 #project .card:last-child:hover,
 .dark4 #blog .card:last-child:hover,
 .light4 #project .card,
+.light4 #blog .card a,
 .light4 #blog .card,
 .light4 div a svg,
 .light4 .card div{
@@ -485,6 +496,7 @@
 .light4 #project .card:last-child:hover,
 .light4 #blog .card:last-child:hover,
 .dark4 #project .card,
+.dark4 #blog .card a,
 .dark4 #blog .card,
 .dark4 div a svg,
 .dark4 .card div{
@@ -527,6 +539,7 @@
 .dark5 #project .card:last-child:hover,
 .dark5 #blog .card:last-child:hover,
 .light5 #project .card,
+.light5 #blog .card a,
 .light5 #blog .card,
 .light5 div a svg,
 .light5 .card div{
@@ -568,6 +581,7 @@
 .light5 #project .card:last-child:hover,
 .light5 #blog .card:last-child:hover,
 .dark5 #project .card,
+.dark5 #blog .card a,
 .dark5 #blog .card,
 .dark5 div a svg,
 .dark5 .card div{
@@ -609,6 +623,7 @@
 .dark6 #project .card:last-child:hover,
 .dark6 #blog .card:last-child:hover,
 .light6 #project .card,
+.light6 #blog .card a,
 .light6 #blog .card,
 .light6 div a svg,
 .light6 .card div{
@@ -650,6 +665,7 @@
 .light6 #project .card:last-child:hover,
 .light6 #blog .card:last-child:hover,
 .dark6 #project .card,
+.dark6 #blog .card a,
 .dark6 #blog .card,
 .dark6 div a svg,
 .dark6 .card div{
@@ -691,6 +707,7 @@
 .dark7 #project .card:last-child:hover,
 .dark7 #blog .card:last-child:hover,
 .light7 #project .card,
+.light7 #blog .card a,
 .light7 #blog .card,
 .light7 div a svg,
 .light7 .card div{
@@ -732,6 +749,7 @@
 .light7 #project .card:last-child:hover,
 .light7 #blog .card:last-child:hover,
 .dark7 #project .card,
+.dark7 #blog .card a,
 .dark7 #blog .card,
 .dark7 div a svg,
 .dark7 .card div{
@@ -773,6 +791,7 @@
 .dark8 #project .card:last-child:hover,
 .dark8 #blog .card:last-child:hover,
 .light8 #project .card,
+.light8 #blog .card a,
 .light8 #blog .card,
 .light8 div a svg,
 .light8 .card div{
@@ -814,6 +833,7 @@
 .light8 #project .card:last-child:hover,
 .light8 #blog .card:last-child:hover,
 .dark8 #project .card,
+.dark8 #blog .card a,
 .dark8 #blog .card,
 .dark8 div a svg,
 .dark8 .card div{
@@ -855,6 +875,7 @@
 .dark9 #project .card:last-child:hover,
 .dark9 #blog .card:last-child:hover,
 .light9 #project .card,
+.light9 #blog .card a,
 .light9 #blog .card,
 .light9 div a svg,
 .light9 .card div{
@@ -876,7 +897,6 @@
   border: 2px solid var(--lightPrimary9);
   color: var(--lightPrimary9);
 }
-
 .dark9 .formulario button:hover {
   border: 2px solid var(--lightPrimary9);
   background-color: var(--lightPrimary9);
@@ -898,6 +918,7 @@
 .light9 #project .card:last-child:hover,
 .light9 #blog .card:last-child:hover,
 .dark9 #project .card,
+.dark9 #blog .card a,
 .dark9 #blog .card,
 .dark9 div a svg,
 .dark9 .card div{
@@ -914,14 +935,22 @@
   color: var(--darkPrimary9);
   border-bottom: 2px solid var(--darkPrimary9);
 }
-.dark9 .formulario button {
-  border: 2px solid var(--lightPrimary9);
+.light9 .formulario button {
+  border: 2px solid var(--darkPrimary9);
+  color: var(--darkPrimary9);
+}
+.light9 .formulario button:hover {
+  border: 2px solid var(--darkPrimary9);
+  background-color: var(--darkPrimary9);
   color: var(--lightPrimary9);
 }
-.dark9 .formulario button:hover {
-  border: 2px solid var(--lightPrimary9);
-  background-color: var(--lightPrimary9);
-  color: var(--darkPrimary9);
+.dark9 .iconSvg {
+  background-color: var(--darkPrimary9);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+.dark9 .iconSvg {
+  box-shadow: 0 0 0 5px var(--darkPrimary9);
+  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 .light9 .formulario textarea::placeholder {
   color: var(--darkPrimary9);
