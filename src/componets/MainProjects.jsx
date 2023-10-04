@@ -5,87 +5,109 @@ export const MainProjects = () => {
   return (
     <article id="project">
       <article className="card cardProject">
-        <h2>Encritador Web</h2>
+        <h2>Tic-Tac-Toe</h2>
         <img
-          src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/128ea8179695863.Y3JvcCwzMDY4LDI0MDAsNjgsMA.png"
-          alt=""
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696374199/uuvzeapgmlv04dezd9v8.png"
+          alt="Project of TicTacToe"
         />
         <div>
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
-      <article className="card cardProject">
-        <h2>Encritador Web</h2>
-        <img
-          src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/9d23c864122637.612e2b21f17c2.jpg"
-          alt=""
-        />
-        <div>
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
-      <article className="card cardProject">
-        <h2>Encritador Web</h2>
-        <img
-          src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/a01bb7179962165.Y3JvcCwzMDY4LDI0MDAsNjgsMA.png"
-          alt=""
-        />
-        <div>
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
-      <article className="card cardProject">
-        <h2>Encritador Web para que no hagas</h2>
-        <div>
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
-      <article className="card cardProject">
-        <h2>Encritador Web</h2>
-        <img
-          src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2fdc08178998937.Y3JvcCwxNjE2LDEyNjQsMCww.png"
-          alt=""
-        />
-        <div>
-          <a href="https://www.instagram.com/chipredev/" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
-      <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
-        <article className="card cardProject">
-          <h2>Ver Mas</h2>
-          <svg className='cursorPlus'
-            width="38"
-            height="38"
-            viewBox="0 0 38 38"
+          <a
+            href="https://github.com/achipre/tic-tac-toe--beginner"
+            target="_blank"
+            rel="noreferrer"
           >
-            <path
-              d="M0 37.8234V38H38V0H37.8234L0 37.8234Z"
-            />
+            <Github />
+          </a>
+          <a href="https://tresenraya-reactjs.netlify.app/" target="_blank" rel="noreferrer">
+            <Link />
+          </a>
+        </div>
+      </article>
+      <article className="card cardProject">
+        <h2>Encritador Web</h2>
+        <img
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696375471/Portfolio/x6smqzucr2k25slxdobr.png"
+          alt="Project to Web Encript"
+        />
+        <div>
+          <a
+            href="https://github.com/achipre/encriptaydesencripta"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
+          </a>
+          <a
+            href="https://achipre.github.io/encriptaydesencripta/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Link />
+          </a>
+        </div>
+      </article>
+      <article className="card cardProject">
+        <h2>Landing Page Basic</h2>
+        <img
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696375967/Portfolio/lyplqoty68nw09l8b3xu.png"
+          alt="Project of Landing Page Basic"
+        />
+        <div>
+          <a href="https://github.com/achipre/landing-page-basic" target="_blank" rel="noreferrer">
+            <Github />
+          </a>
+          <a href="https://achipre.github.io/landing-page-basic/" target="_blank" rel="noreferrer">
+            <Link />
+          </a>
+        </div>
+      </article>
+      <article className="card cardProject">
+        <h2>Search Movie</h2>
+        <img
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696377141/Portfolio/qmhmchvcbiz3o027lleo.png"
+          alt="Project of Movie App"
+        />
+        <div>
+          <a
+            href="https://github.com/achipre/prueba-tecnica-junior--reactjs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
+          </a>
+          <a
+            href="https://pruebatecnicajunior-reactjs.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Link />
+          </a>
+        </div>
+      </article>
+      <article className="card cardProject">
+        <h2>Shopping Cart</h2>
+        <img
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696376528/Portfolio/dnieujsu4dvw3221r7gp.png"
+          alt=""
+        />
+        <div>
+          <a
+            href="https://github.com/achipre/prueba-tecnica-ecommerce--reactjs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
+          </a>
+          <a href="https://twitter.com/chipredev" target="_blank" rel="noreferrer">
+            <Link />
+          </a>
+        </div>
+      </article>
+      <a href="https://github.com/achipre?tab=repositories" target="_blank" rel="noreferrer">
+        <article className="card cardProject">
+          <h2 className="vermas">Ver Mas</h2>
+          <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">
+            <path d="M0 37.8234V38H38V0H37.8234L0 37.8234Z" />
           </svg>
         </article>
       </a>

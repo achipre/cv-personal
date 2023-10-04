@@ -26,6 +26,8 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  min-height: calc(50px + 2rem);
+  height: 100%;
 }
 #project .card:last-child:hover,
 #blog .card:last-child:hover{
@@ -38,8 +40,13 @@
   text-overflow: ellipsis;
   background-color: inherit;
   padding: 1rem;
+  line-height: 1;
   padding-bottom: 0;
   font-size: max(2rem, 4.5vw);
+}
+#project .card .vermas,
+#blog .card .vermas{
+  padding: 0;
 }
 #project .card img,
 #blog .card img{
@@ -106,10 +113,16 @@
     height: auto;
     width: 100%;
     min-width: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
     #project .card h2,
     #blog .card h2{
     font-size: max(2rem, 2.8vw);
+  }
+  #project .card:last-child,
+  #blog .card:last-child {
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
   }
 }

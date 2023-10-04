@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-between;
   font-size: clamp(2rem, 4.5vw, 3.5rem);
+  gap: 1rem;
 }
 #contact h2{
-  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-size: clamp(1.7rem, 6vw, 3.5rem);
 }
 .formulario{
   display: flex;
@@ -18,12 +19,12 @@
   background-color: transparent;
   border: none;
   outline: none;
-  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
 }
 .formulario textarea{
   font-family: 'PassionOne';
   background-color: transparent;
-  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
   resize: none;
   outline: none;
   border: none;
@@ -34,21 +35,47 @@
 .formulario textarea::placeholder{
   opacity: .35;
   background-color: transparent;
-  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
 }
 .formulario button{
+  margin: 0;
   margin-top: 1rem;
+  padding: 0;
   cursor: pointer;
   align-self: center;
   width: 40%;
+  min-width: 220px;
   font-family: 'PassionOne';
   line-height: 1.5;
   border: none;
-  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  font-size: clamp(1.5rem, 4.5vw, 3rem);
   background-color: transparent;
 }
 #contact p{
   font-family: 'SixCaps';
   align-self: center;
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+}
+@media (width > 1024px) {
+  #contact h2 {
+    font-size: clamp(1.8rem, 4.5vw, 4rem);
+  }
+  .formulario input {
+    font-size: clamp(1.5rem, 4.5vw, 3rem);
+  }
+
+  .formulario textarea {
+    font-size: clamp(1.5rem, 4.5vw, 3rem);
+
+  }
+
+  .formulario input::placeholder,
+  .formulario textarea::placeholder {
+    font-size: clamp(1.5rem, 4.5vw, 3rem);
+  }
+
+  .formulario button {
+    max-width: 400px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+  }
 }
