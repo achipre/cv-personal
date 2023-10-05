@@ -1,5 +1,5 @@
 h1{
-  font-family: 'SixCaps';
+  font-family: 'SixCaps', Helvetica, sans-serif;
   font-size: 4rem;
   padding-left: clamp(1.4rem, 2vw, 3rem);
 }
@@ -24,14 +24,14 @@ article{
   transition: background-color .2s ease-in-out;
 }
 .dark0 article {
-  background-image: url('../../assets/textilDark.svg');
+  /* background-image: url('../../assets/textilDark.svg'); */
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
   fill: var(--lightPrimary0);
   transition: background-color .2s ease-in-out;
 }
 .light0 article {
-  background-image: url('../../assets/textilLight.svg');
+  /* background-image: url('../../assets/textilLight.svg'); */
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
   fill: var(--darkPrimary0);
@@ -161,7 +161,7 @@ article h1,
 article h2, 
 article p{
   padding-left: 0;
-  font-family: 'PassionOne', cursive;
+  font-family: 'PassionOne', Helvetica, sans-serif;
   font-size: clamp(5rem, 18vw, 10rem);
   line-height: .9;
   animation: homeText .2s ease-in-out;

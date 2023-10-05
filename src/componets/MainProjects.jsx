@@ -24,7 +24,7 @@ export const MainProjects = () => {
         </div>
       </article>
       <article className="card cardProject">
-        <h2>Encritador Web</h2>
+        <h2>Encrypt Web</h2>
         <img
           src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696375471/Portfolio/x6smqzucr2k25slxdobr.png"
           alt="Project to Web Encript"
@@ -105,7 +105,7 @@ export const MainProjects = () => {
       </article>
       <a href="https://github.com/achipre?tab=repositories" target="_blank" rel="noreferrer">
         <article className="card cardProject">
-          <h2 className="vermas">Ver Mas</h2>
+          <h2 className="vermas">See more...</h2>
           <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">
             <path d="M0 37.8234V38H38V0H37.8234L0 37.8234Z" />
           </svg>

@@ -19,12 +19,12 @@ export const MainAbout = () => {
         </div>
       </div>
       <p className="paragraphAbout">
-        Hi, my name is Alex Chipre and I began using WordPress when first began. I’ve spent most of
-        my waking hours for the last ten years designing, programming and operating WordPress sites
-        go beyond with exclusive designer. Apart from this I love to travel, mentor designers,
-        review design portfolios & read books on everything related to design. I have also given
-        design talks in various educational institutions. So I love creating creative content, and
-        you can find most of my works here.
+        Hello, my name is Alex Chipre, and I began using React technology right from the start. I
+        have devoted most of my waking hours for the past two years to design, web development, and
+        managing websites with React, taking my skills to the next level with exclusive designs.
+        Apart from this, I love to travel, mentor designers, review design portfolios, and read
+        books on everything related to design and web development. I am passionate about creating
+        creative content, and you can find most of my work here.
       </p>
       <div className="technology">
         <h2>Technologies:</h2>

@@ -21,7 +21,7 @@ article .statistics div h2 {
 }
 article .statistics div p {
   font-size: max(1.7rem, 5.5vw);
-  font-family: "SixCaps";
+  font-family: "SixCaps", Helvetica, sans-serif;
 }
 article .paragraphAbout {
   font-size: max(1.5rem, 3.5vw);

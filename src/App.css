@@ -1,5 +1,5 @@
 :root {
-  --darkPrimary: #d02f8e;
+  --darkPrimary: #18122B;
   --darkPrimary0: #1B2430;
   --darkPrimary1: #053f7b;
   --darkPrimary2: #086c7c;
@@ -10,7 +10,7 @@
   --darkPrimary7: #70182c;
   --darkPrimary8: #380844;
   --darkPrimary9: #4f25a4;
-  --lightPrimary: #ffffeb;
+  --lightPrimary: #aea8c6;
   --lightPrimary0: #FEFBF6;
   --lightPrimary1: #ffa500;
   --lightPrimary2: #95f2e9;
@@ -111,7 +111,7 @@
 .light0 #blog .card,
 .light0 .card div a svg,
 .light0 .card div{
-  background-image: url('./assets/textilDark.svg');
+  /* background-image: url('./assets/textilDark.svg'); */
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
@@ -156,7 +156,7 @@
 .dark0 #blog .card,
 .dark0 .card div a svg,
 .dark0 .card div{
-  background-image: url('./assets/textilLight.svg');
+  /* background-image: url('./assets/textilLight.svg'); */
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0) ;
   fill: var(--darkPrimary0) ;

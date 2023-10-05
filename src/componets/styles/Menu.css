@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   animation: screenMenuOpen .3s ease-in-out ;
-  font-family: 'PassionOne', sans-serif;
+  font-family: 'PassionOne', Helvetica, sans-serif;
   font-size: clamp(1.8rem, 5vw, 5rem);
 }
 .menuHidden{
@@ -29,12 +29,12 @@
 .menuBackdark0{
   color: var(--darkPrimary0);
   background-color: var(--lightPrimary0);
-  background-image: url('../../assets/textilLight.svg');
+  /* background-image: url('../../assets/textilLight.svg'); */
 }
 .menuBacklight0{
   color: var(--lightPrimary0);
   background-color: var(--darkPrimary0);
-  background-image: url('../../assets/textilDark.svg');
+  /* background-image: url('../../assets/textilDark.svg'); */
 }
 .menuBackdark1{
   color: var(--darkPrimary1);
@@ -192,14 +192,14 @@
   transition: background-color .3s ease-in-out;
 }
 .titleMenu.dark0:hover{
-  background-image: url('../assets/textilLight.svg');
+  /* background-image: url('../assets/textilLight.svg'); */
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
   fill: var(--darkPrimary0);
   transition: background-color .2s ease-in-out;
 }
 .titleMenu.light0:hover{
-  background-image: url('../assets/textilDark.svg');
+  /* background-image: url('../assets/textilDark.svg'); */
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
   fill: var(--lightPrimary0);
@@ -420,7 +420,7 @@
     display: block;
     font-size: max(5.5rem, 16vh);
     background-color: transparent;
-    font-family: 'SixCaps';
+    font-family: 'SixCaps', Helvetica, sans-serif;
   }
   .socialsTitle span{
     display: inline-block;

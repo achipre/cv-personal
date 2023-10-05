@@ -40,7 +40,6 @@ export const MainContact = () => {
           </button>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://chipre.netlify.app/" />
-
         </form>
         <p>
           Elaborado por: <span>Alex Chipre</span>

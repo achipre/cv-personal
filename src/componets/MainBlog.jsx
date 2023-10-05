@@ -9,7 +9,7 @@ export const MainBlog = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <h2>Book: Steve Jobs</h2>
+          <h2>Books: Steve Jobs</h2>
           <img
             src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4bc38ec4-8f4b-473f-99f7-a815b96a703d%2FSteve_Jobs.avif?id=f284f8c0-f015-4918-8b36-3a9a52d60c31&table=block"
             alt=""
@@ -35,7 +35,7 @@ export const MainBlog = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <h2>Book: Ready Player One</h2>
+          <h2>Books: Ready Player One</h2>
           <img
             src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c650cf9a-6770-4e45-a0a0-a59e54967ea3/ready_player_one/w=640,quality=80"
             alt=""
@@ -71,7 +71,7 @@ export const MainBlog = () => {
 
       <a href="https://notiblogs.super.site/" target="_blank" rel="noreferrer">
         <article className="card cardBlog">
-          <h2 className="vermas">Ver Mas</h2>
+          <h2 className="vermas">See more...</h2>
           <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">
             <path d="M0 37.8234V38H38V0H37.8234L0 37.8234Z" />
           </svg>

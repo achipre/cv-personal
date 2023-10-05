@@ -15,14 +15,14 @@
   gap: 1rem;
 }
 .formulario input{
-  font-family: 'PassionOne';
+  font-family: "PassionOne", Helvetica, sans-serif;
   background-color: transparent;
   border: none;
   outline: none;
   font-size: clamp(1.5rem, 4.5vw, 3rem);
 }
 .formulario textarea{
-  font-family: 'PassionOne';
+  font-family: "PassionOne", Helvetica, sans-serif;
   background-color: transparent;
   font-size: clamp(1.5rem, 4.5vw, 3rem);
   resize: none;
@@ -45,14 +45,14 @@
   align-self: center;
   width: 40%;
   min-width: 220px;
-  font-family: 'PassionOne';
+  font-family: "PassionOne", Helvetica, sans-serif;
   line-height: 1.5;
   border: none;
   font-size: clamp(1.5rem, 4.5vw, 3rem);
   background-color: transparent;
 }
 #contact p{
-  font-family: 'SixCaps';
+  font-family: "SixCaps", Helvetica, sans-serif;
   align-self: center;
   font-size: clamp(1.2rem, 2.5vw, 2rem);
 }
