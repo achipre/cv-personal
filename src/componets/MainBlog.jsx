@@ -1,4 +1,5 @@
 import './styles/MainProject.css'
+import imageCss from '../assets/csstranslucid.jpg'
 
 export const MainBlog = () => {
   return (
@@ -12,7 +13,7 @@ export const MainBlog = () => {
           <h2>Books: Steve Jobs</h2>
           <img
             src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4bc38ec4-8f4b-473f-99f7-a815b96a703d%2FSteve_Jobs.avif?id=f284f8c0-f015-4918-8b36-3a9a52d60c31&table=block"
-            alt=""
+            alt="Coverbook Steve Jobs"
           />
         </a>
       </article>
@@ -23,10 +24,7 @@ export const MainBlog = () => {
           rel="noreferrer"
         >
           <h2>CSS: Bordes Translúcidos</h2>
-          <img
-            src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5489d822-2fe9-4ad2-a329-fc771a77a3ff/Untitled/w=3840,quality=80"
-            alt=""
-          />
+          <img src={imageCss} alt="Image of article Border Translucids" />
         </a>
       </article>
       <article className="card cardBlog">
@@ -38,7 +36,7 @@ export const MainBlog = () => {
           <h2>Books: Ready Player One</h2>
           <img
             src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/c650cf9a-6770-4e45-a0a0-a59e54967ea3/ready_player_one/w=640,quality=80"
-            alt=""
+            alt="Coverbook Ready PlayerOne"
           />
         </a>
       </article>
@@ -51,7 +49,7 @@ export const MainBlog = () => {
           <h2>CSS: Crear Múltiples Bordes</h2>
           <img
             src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/92e03bef-bb0b-459a-bacf-6f1729ecfe7b/Untitled/w=1080,quality=80"
-            alt=""
+            alt="Image of article multiples bords on CSS"
           />
         </a>
       </article>
@@ -64,7 +62,7 @@ export const MainBlog = () => {
           <h2>CSS: Posicionamiento de Fondo</h2>
           <img
             src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/81605760-c855-4d0e-a13e-fc7bd99e35b4/Untitled/w=1080,quality=80"
-            alt=""
+            alt="Image of article Position Background"
           />
         </a>
       </article>

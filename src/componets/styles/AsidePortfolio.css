@@ -19,13 +19,11 @@
 }
 
 .dark0 .asideMain{
-/* background-image: url('../../assets/textilDark.svg'); */
 background-color: var(--darkPrimary0);
 transition: background-color .2s ease-in-out, transform .3s ease-in-out;
 }
 
 .light0 .asideMain{
-  /* background-image: url('../../assets/textilLight.svg'); */
   background-color: var(--lightPrimary0);
   transition: background-color .2s ease-in-out, transform .3s ease-in-out;
 }
@@ -150,7 +148,6 @@ transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   .light0 .asideMain .socials a svg,
   .dark0 .hLineAside,
   .dark0 .vLineAside {
-    /* background-image: url('../../assets/textilDark.svg'); */
     background-color: var(--darkPrimary0);
     color: var(--lightPrimary0);
     fill: var(--lightPrimary0);
@@ -160,7 +157,6 @@ transition: background-color .2s ease-in-out, transform .3s ease-in-out;
   .dark0 .asideMain .socials a svg,
   .light0 .hLineAside,
   .light0 .vLineAside {
-    /* background-image: url('../../assets/textilLight.svg'); */
     background-color: var(--lightPrimary0);
     color: var(--darkPrimary0);
     fill: var(--darkPrimary0);

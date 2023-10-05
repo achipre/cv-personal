@@ -111,7 +111,6 @@
 .light0 #blog .card,
 .light0 .card div a svg,
 .light0 .card div{
-  /* background-image: url('./assets/textilDark.svg'); */
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0) ;
   fill: var(--lightPrimary0) ;
@@ -156,7 +155,6 @@
 .dark0 #blog .card,
 .dark0 .card div a svg,
 .dark0 .card div{
-  /* background-image: url('./assets/textilLight.svg'); */
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0) ;
   fill: var(--darkPrimary0) ;

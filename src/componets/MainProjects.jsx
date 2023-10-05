@@ -1,4 +1,7 @@
 import { Github, Link } from './icons/Icons'
+import imagereactshop from '../assets/reactshop.png'
+import imagesearchmovie from '../assets/searchmovie.png'
+
 import './styles/MainProject.css'
 
 export const MainProjects = () => {
@@ -63,10 +66,7 @@ export const MainProjects = () => {
       </article>
       <article className="card cardProject">
         <h2>Search Movie</h2>
-        <img
-          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696377141/Portfolio/qmhmchvcbiz3o027lleo.png"
-          alt="Project of Movie App"
-        />
+        <img src={imagesearchmovie} alt="Project of Movie App" />
         <div>
           <a
             href="https://github.com/achipre/prueba-tecnica-junior--reactjs"
@@ -86,10 +86,7 @@ export const MainProjects = () => {
       </article>
       <article className="card cardProject">
         <h2>Shopping Cart</h2>
-        <img
-          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696376528/Portfolio/dnieujsu4dvw3221r7gp.png"
-          alt=""
-        />
+        <img src={imagereactshop} alt="Project of Shopping Cart" />
         <div>
           <a
             href="https://github.com/achipre/prueba-tecnica-ecommerce--reactjs"
