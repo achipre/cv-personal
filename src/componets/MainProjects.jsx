@@ -1,6 +1,7 @@
 import { Github, Link } from './icons/Icons'
-import imagereactshop from '../assets/reactshop.png'
-import imagesearchmovie from '../assets/searchmovie.png'
+import imagereactshop from '../assets/reactshop.webp'
+import imagesearchmovie from '../assets/searchmovie.webp'
+import imagelandingpage from '../assets/landingpage.webp'
 
 import './styles/MainProject.css'
 
@@ -52,7 +53,7 @@ export const MainProjects = () => {
       <article className="card cardProject">
         <h2>Landing Page Basic</h2>
         <img
-          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1696375967/Portfolio/lyplqoty68nw09l8b3xu.png"
+          src={imagelandingpage}
           alt="Project of Landing Page Basic"
         />
         <div>
