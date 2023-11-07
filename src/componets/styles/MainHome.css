@@ -9,6 +9,7 @@ article{
   min-height: calc(144px + 95px + 72px);
   display: flex;
   flex-direction: column;
+  padding-top: 84px;
   height: calc(100vh - 84px);
   justify-content: center;
   gap: .5rem;
@@ -185,6 +186,8 @@ article p{
   }
   article {
     padding: 3rem;
+    width: calc(100vw - 22vw);
+    margin-left: auto;
     height: 100vh;
   }
   article h1{

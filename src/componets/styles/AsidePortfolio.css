@@ -1,5 +1,9 @@
 .asideMain{
   z-index: 4;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
 }
 .asideMain .socials,
 .asideMain .hLineAside,
@@ -115,8 +119,9 @@ transition: background-color .2s ease-in-out, transform .3s ease-in-out;
 
 @media (width > 1024px){
   .asideMain{
-    position: relative;
-    min-width: 22vw;
+    position: fixed;
+    height: 100vh;
+    width: 22vw;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;

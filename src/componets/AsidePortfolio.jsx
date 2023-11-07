@@ -5,7 +5,7 @@ export const AsidePortfolio = ({ title }) => {
 
   return (
     <aside className="asideMain">
-      <h1 className="asideTitle">{title}</h1>
+      <h1 className="asideTitle">Home</h1>
       <div className="socials">
         <a href="https://github.com/achipre" target="_blank" rel="noreferrer">
           <Github curretThemeInLocal={curretThemeInLocal} />

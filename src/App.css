@@ -43,11 +43,11 @@
   border-bottom: 2px solid var(--lightPrimary);
   color: var(--lightPrimary) ;
 }
-.dark .formulario button{
+.dark .formulario  input[type='submit']{
   border: 2px solid var(--lightPrimary);
   color: var(--lightPrimary) ;
 }
-.dark .formulario button:hover{
+.dark .formulario  input[type='submit']:hover{
   border: 2px solid var(--lightPrimary);
   background-color: var(--lightPrimary) ;
   color: var(--darkPrimary) ;
@@ -83,11 +83,11 @@
   color: var(--darkPrimary);
   border-bottom: 2px solid var(--darkPrimary);
 }
-.light .formulario button {
+.light .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary);
   color: var(--darkPrimary);
 }
-.light .formulario button:hover{
+.light .formulario  input[type='submit']:hover{
   border: 2px solid var(--darkPrimary);
   background-color: var(--darkPrimary);
   color: var(--lightPrimary);
@@ -123,12 +123,12 @@
   color: var(--lightPrimary0);
 }
 
-.dark0 .formulario button {
+.dark0 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary0);
   color: var(--lightPrimary0);
 }
 
-.dark0 .formulario button:hover {
+.dark0 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary0);
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
@@ -167,12 +167,12 @@
   border-bottom: 2px solid var(--darkPrimary0);
 }
 
-.light0 .formulario button {
+.light0 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary0);
   color: var(--darkPrimary0);
 }
 
-.light0 .formulario button:hover {
+.light0 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary0);
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
@@ -210,12 +210,12 @@
   color: var(--lightPrimary1);
 }
 
-.dark1 .formulario button {
+.dark1 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary1);
   color: var(--lightPrimary1);
 }
 
-.dark1 .formulario button:hover {
+.dark1 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary1);
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1);
@@ -253,12 +253,12 @@
   border-bottom: 2px solid var(--darkPrimary1);
 }
 
-.light1 .formulario button {
+.light1 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary1);
   color: var(--darkPrimary1);
 }
 
-.light1 .formulario button:hover {
+.light1 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary1);
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1);
@@ -296,12 +296,12 @@
   color: var(--lightPrimary2);
 }
 
-.dark2 .formulario button {
+.dark2 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary2);
   color: var(--lightPrimary2);
 }
 
-.dark2 .formulario button:hover {
+.dark2 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary2);
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2);
@@ -339,12 +339,12 @@
   border-bottom: 2px solid var(--darkPrimary2);
 }
 
-.light2 .formulario button {
+.light2 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary2);
   color: var(--darkPrimary2);
 }
 
-.light2 .formulario button:hover {
+.light2 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary2);
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2);
@@ -382,12 +382,12 @@
   color: var(--lightPrimary3);
 }
 
-.dark3 .formulario button {
+.dark3 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary3);
   color: var(--lightPrimary3);
 }
 
-.dark3 .formulario button:hover {
+.dark3 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary3);
   background-color: var(--lightPrimary3);
   color: var(--darkPrimary3);
@@ -425,12 +425,12 @@
   border-bottom: 2px solid var(--darkPrimary3);
 }
 
-.light3 .formulario button {
+.light3 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary3);
   color: var(--darkPrimary3);
 }
 
-.light3 .formulario button:hover {
+.light3 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary3);
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3);
@@ -468,12 +468,12 @@
   color: var(--lightPrimary4);
 }
 
-.dark4 .formulario button {
+.dark4 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary4);
   color: var(--lightPrimary4);
 }
 
-.dark4 .formulario button:hover {
+.dark4 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary4);
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4);
@@ -511,12 +511,12 @@
   border-bottom: 2px solid var(--darkPrimary4);
 }
 
-.light4 .formulario button {
+.light4 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary4);
   color: var(--darkPrimary4);
 }
 
-.light4 .formulario button:hover {
+.light4 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary4);
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4);
@@ -553,12 +553,12 @@
   color: var(--lightPrimary5);
 }
 
-.dark5 .formulario button {
+.dark5 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary5);
   color: var(--lightPrimary5);
 }
 
-.dark5 .formulario button:hover {
+.dark5 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary5);
   background-color: var(--lightPrimary5);
   color: var(--darkPrimary5);
@@ -595,12 +595,12 @@
   border-bottom: 2px solid var(--darkPrimary5);
 }
 
-.light5 .formulario button {
+.light5 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary5);
   color: var(--darkPrimary5);
 }
 
-.light5 .formulario button:hover {
+.light5 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary5);
   background-color: var(--darkPrimary5);
   color: var(--lightPrimary5);
@@ -637,12 +637,12 @@
   color: var(--lightPrimary6);
 }
 
-.dark6 .formulario button {
+.dark6 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary6);
   color: var(--lightPrimary6);
 }
 
-.dark6 .formulario button:hover {
+.dark6 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary6);
   background-color: var(--lightPrimary6);
   color: var(--darkPrimary6);
@@ -679,12 +679,12 @@
   border-bottom: 2px solid var(--darkPrimary6);
 }
 
-.light6 .formulario button {
+.light6 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary6);
   color: var(--darkPrimary6);
 }
 
-.light6 .formulario button:hover {
+.light6 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary6);
   background-color: var(--darkPrimary6);
   color: var(--lightPrimary6);
@@ -721,12 +721,12 @@
   color: var(--lightPrimary7);
 }
 
-.dark7 .formulario button {
+.dark7 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary7);
   color: var(--lightPrimary7);
 }
 
-.dark7 .formulario button:hover {
+.dark7 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary7);
   background-color: var(--lightPrimary7);
   color: var(--darkPrimary7);
@@ -763,12 +763,12 @@
   border-bottom: 2px solid var(--darkPrimary7);
 }
 
-.light7 .formulario button {
+.light7 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary7);
   color: var(--darkPrimary7);
 }
 
-.light7 .formulario button:hover {
+.light7 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary7);
   background-color: var(--darkPrimary7);
   color: var(--lightPrimary7);
@@ -805,12 +805,12 @@
   color: var(--lightPrimary8);
 }
 
-.dark8 .formulario button {
+.dark8 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary8);
   color: var(--lightPrimary8);
 }
 
-.dark8 .formulario button:hover {
+.dark8 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary8);
   background-color: var(--lightPrimary8);
   color: var(--darkPrimary8);
@@ -847,12 +847,12 @@
   border-bottom: 2px solid var(--darkPrimary8);
 }
 
-.light8 .formulario button {
+.light8 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary8);
   color: var(--darkPrimary8);
 }
 
-.light8 .formulario button:hover {
+.light8 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary8);
   background-color: var(--darkPrimary8);
   color: var(--lightPrimary8);
@@ -891,11 +891,11 @@
   color: var(--lightPrimary9);
 }
 
-.dark9 .formulario button {
+.dark9 .formulario  input[type='submit'] {
   border: 2px solid var(--lightPrimary9);
   color: var(--lightPrimary9);
 }
-.dark9 .formulario button:hover {
+.dark9 .formulario  input[type='submit']:hover {
   border: 2px solid var(--lightPrimary9);
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9);
@@ -933,11 +933,11 @@
   color: var(--darkPrimary9);
   border-bottom: 2px solid var(--darkPrimary9);
 }
-.light9 .formulario button {
+.light9 .formulario  input[type='submit'] {
   border: 2px solid var(--darkPrimary9);
   color: var(--darkPrimary9);
 }
-.light9 .formulario button:hover {
+.light9 .formulario  input[type='submit']:hover {
   border: 2px solid var(--darkPrimary9);
   background-color: var(--darkPrimary9);
   color: var(--lightPrimary9);

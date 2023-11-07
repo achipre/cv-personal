@@ -2,7 +2,12 @@ import { Header } from './componets/Header'
 import './App.css'
 import { handleColorTheme, useDark, useMenu } from './hooks/theme'
 import { Menu } from './componets/Menu'
-import { Section } from './componets/Section'
+import { AsidePortfolio } from './componets/AsidePortfolio'
+import { MainHome } from './componets/MainHome'
+import { MainAbout } from './componets/MainAbout'
+import { MainProjects } from './componets/MainProjects'
+import { MainBlog } from './componets/MainBlog'
+import { MainContact } from './componets/MainContact'
 
 export function App () {
   const { themeOs, theme, handleTheme } = useDark()
@@ -20,11 +25,12 @@ export function App () {
         changeColorful={handleColorTheme}
       />
       {isOpenMenu && <Menu closeMenu={closeMenu} classTheme={themeOs} />}
-      <Section title="Home" />
-      <Section title="About me" />
-      <Section title="Projects" />
-      <Section title="Blog" />
-      <Section title="Contact" />
+      <AsidePortfolio />
+      <MainHome />
+      <MainAbout />
+      <MainProjects />
+      <MainBlog />
+      <MainContact />
     </>
   )
 }

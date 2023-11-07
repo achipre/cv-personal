@@ -18,8 +18,16 @@
   min-width: 0;
   justify-content: space-between;
 }
+#project .card a,
+#blog .card a{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
 #blog .card{
   cursor: pointer;
+  position: relative;
 }
 #project .card:last-child,
 #blog .card:last-child{
@@ -54,6 +62,7 @@
   aspect-ratio: 1.2;
   object-fit: contain;
   padding: 1rem;
+  flex-grow: 1;
   filter: grayscale(1);
   transition: transform .3s ease-in-out;
 }
@@ -82,8 +91,8 @@
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
-.articleProjects #project .card .cursorPlus,
-.articleBlog #blog .card .cursorPlus{
+#project .card .cursorPlus,
+#blog .card .cursorPlus{
   position: absolute;
   bottom: 1.5rem;
   right: 1.5rem;
