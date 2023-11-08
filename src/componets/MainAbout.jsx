@@ -1,9 +1,25 @@
+import { useEffect, useRef } from 'react'
 import { Css, Express, Html, JavaScript, Nest, Node, React, Tailwind } from './icons/Icons'
 import './styles/MainAbout.css'
 
 export const MainAbout = () => {
+  const aboutSectionRef = useRef(null)
+  function verificarAbout (entries, observer) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        console.log('El elemento about es visible en la vista')
+      } else {
+        console.log('El elemento about ya no es visible en la vista')
+      }
+    })
+  }
+  useEffect(() => {
+    const aboutSection = aboutSectionRef.current
+    const observer = new IntersectionObserver(verificarAbout, {})
+    observer.observe(aboutSection)
+  }, [])
   return (
-    <article id="about">
+    <article id="about" ref={aboutSectionRef}>
       <div className="statistics">
         <div className="projects">
           <h2>+100</h2>
