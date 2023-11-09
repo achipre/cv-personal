@@ -1,25 +1,9 @@
-import { useEffect, useRef } from 'react'
 import './styles/MainProject.css'
 import imageCss from '../assets/csstranslucid.jpg'
 
 export const MainBlog = ({ titleBlog }) => {
-  const visibleRef = useRef(null)
-  const isVisibleBlog = (entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        titleBlog = true
-      } else {
-        titleBlog = false
-      }
-    })
-  }
-  useEffect(() => {
-    const visibleHomeRef = visibleRef.current
-    const observer = new IntersectionObserver(isVisibleBlog, {})
-    observer.observe(visibleHomeRef)
-  })
   return (
-    <article id="blog">
+    <article id="blog" ref={titleBlog}>
       <article className="card cardBlog">
         <a
           href="https://notiblogs.super.site/anlisis-libro-steve-jobs"
@@ -83,7 +67,7 @@ export const MainBlog = ({ titleBlog }) => {
         </a>
       </article>
 
-      <a ref={visibleRef} href="https://notiblogs.super.site/" target="_blank" rel="noreferrer">
+      <a href="https://notiblogs.super.site/" target="_blank" rel="noreferrer">
         <article className="card cardBlog">
           <h2 className="vermas">See more...</h2>
           <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">

@@ -1,4 +1,3 @@
-import { useRef, useEffect } from 'react'
 import { Github, Link } from './icons/Icons'
 import imagereactshop from '../assets/reactshop.webp'
 import imagesearchmovie from '../assets/searchmovie.webp'
@@ -7,23 +6,8 @@ import imagelandingpage from '../assets/landingpage.webp'
 import './styles/MainProject.css'
 
 export const MainProjects = ({ titleProject }) => {
-  const visibleRef = useRef(null)
-  const isVisibleProject = (entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        titleProject = true
-      } else {
-        titleProject = false
-      }
-    })
-  }
-  useEffect(() => {
-    const visibleProjectRef = visibleRef.current
-    const observer = new IntersectionObserver(isVisibleProject, {})
-    observer.observe(visibleProjectRef)
-  })
   return (
-    <article id="project">
+    <article id="project" ref={titleProject}>
       <article className="card cardProject">
         <h2>Tic-Tac-Toe</h2>
         <img
@@ -115,7 +99,6 @@ export const MainProjects = ({ titleProject }) => {
         </div>
       </article>
       <a
-        ref={visibleRef}
         href="https://github.com/achipre?tab=repositories"
         target="_blank"
         rel="noreferrer"

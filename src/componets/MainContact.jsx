@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react'
 import { useForm } from 'react-hook-form'
 import './styles/MainContact.css'
 
@@ -11,24 +10,10 @@ export const MainContact = ({ titleContact }) => {
   const handled = () => {
     console.log('Send Message')
   }
-  const visibleRef = useRef(null)
-  const isVisibleContact = (entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        titleContact = true
-      } else {
-        titleContact = false
-      }
-    })
-  }
-  useEffect(() => {
-    const visibleContactRef = visibleRef.current
-    const observer = new IntersectionObserver(isVisibleContact, {})
-    observer.observe(visibleContactRef)
-  })
+
   return (
     <>
-      <article id="contact">
+      <article id="contact" ref={titleContact}>
         <h2>SEND ME A MESSAGE</h2>
         <form
           action="https://formsubmit.co/2d176eae38a4c77d0f49222fff14f2e4"
@@ -75,7 +60,7 @@ export const MainContact = ({ titleContact }) => {
           {errors?.message?.type === 'required' && (
             <p className="errorMessage">*Please fill out this field.</p>
           )}
-          <input ref={visibleRef} type="submit" id="button" value="SEND MESSAGE" />
+          <input type="submit" id="button" value="SEND MESSAGE" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://chipre.netlify.app/" />
         </form>

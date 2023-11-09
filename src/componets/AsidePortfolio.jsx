@@ -1,11 +1,11 @@
 import { Github, Instagram, Linkedin, X } from './icons/Icons'
 import './styles/AsidePortfolio.css'
-export const AsidePortfolio = ({ title }) => {
+export const AsidePortfolio = ({ sectionVisible }) => {
   const curretThemeInLocal = window.localStorage.getItem('theme')
 
   return (
     <aside className="asideMain">
-      <h1 className="asideTitle">{title}</h1>
+      <h1 className="asideTitle">{sectionVisible}</h1>
       <div className="socials">
         <a href="https://github.com/achipre" target="_blank" rel="noreferrer">
           <Github curretThemeInLocal={curretThemeInLocal} />

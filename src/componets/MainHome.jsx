@@ -1,9 +1,10 @@
+// import { useRef, useEffect, useState } from 'react'
+
 import './styles/MainHome.css'
 
-export const MainHome = ({ secVisibleRef }) => {
-  console.log(secVisibleRef)
+export const MainHome = ({ visibleRef }) => {
   return (
-    <article id="home" ref={secVisibleRef}>
+    <article id="home" ref={visibleRef}>
       <h1>ALEX CHIPRE</h1>
       <h2>Full Stack Developer</h2>
       <p className="homeParagraph">
