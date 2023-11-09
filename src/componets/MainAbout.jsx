@@ -2,14 +2,14 @@ import { useEffect, useRef } from 'react'
 import { Css, Express, Html, JavaScript, Nest, Node, React, Tailwind } from './icons/Icons'
 import './styles/MainAbout.css'
 
-export const MainAbout = () => {
+export const MainAbout = ({ titleAbout }) => {
   const aboutSectionRef = useRef(null)
   function verificarAbout (entries, observer) {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        console.log('El elemento about es visible en la vista')
+        titleAbout = true
       } else {
-        console.log('El elemento about ya no es visible en la vista')
+        titleAbout = false
       }
     })
   }
@@ -19,7 +19,7 @@ export const MainAbout = () => {
     observer.observe(aboutSection)
   }, [])
   return (
-    <article id="about" ref={aboutSectionRef}>
+    <article id="about">
       <div className="statistics">
         <div className="projects">
           <h2>+100</h2>
@@ -34,7 +34,7 @@ export const MainAbout = () => {
           <p>Figma Designs</p>
         </div>
       </div>
-      <p className="paragraphAbout">
+      <p className="paragraphAbout" ref={aboutSectionRef}>
         Hello, my name is Alex Chipre, and I began using React technology right from the start. I
         have devoted most of my waking hours for the past two years to design, web development, and
         managing websites with React, taking my skills to the next level with exclusive designs.

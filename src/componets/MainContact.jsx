@@ -1,11 +1,31 @@
-import './styles/MainContact.css'
+import { useEffect, useRef } from 'react'
 import { useForm } from 'react-hook-form'
+import './styles/MainContact.css'
 
-export const MainContact = () => {
-  const { formState: { errors }, register, handleSubmit } = useForm()
+export const MainContact = ({ titleContact }) => {
+  const {
+    formState: { errors },
+    register,
+    handleSubmit
+  } = useForm()
   const handled = () => {
     console.log('Send Message')
   }
+  const visibleRef = useRef(null)
+  const isVisibleContact = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        titleContact = true
+      } else {
+        titleContact = false
+      }
+    })
+  }
+  useEffect(() => {
+    const visibleContactRef = visibleRef.current
+    const observer = new IntersectionObserver(isVisibleContact, {})
+    observer.observe(visibleContactRef)
+  })
   return (
     <>
       <article id="contact">
@@ -43,7 +63,6 @@ export const MainContact = () => {
           {errors?.email?.type === 'pattern' && (
             <p className="errorMessage">*Please type a correct email address.</p>
           )}
-
           <textarea
             {...register('message', { required: true })}
             name="message"
@@ -56,7 +75,7 @@ export const MainContact = () => {
           {errors?.message?.type === 'required' && (
             <p className="errorMessage">*Please fill out this field.</p>
           )}
-          <input type="submit" id="button" value="SEND MESSAGE" />
+          <input ref={visibleRef} type="submit" id="button" value="SEND MESSAGE" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://chipre.netlify.app/" />
         </form>

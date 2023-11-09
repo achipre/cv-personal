@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react'
 import { Github, Link } from './icons/Icons'
 import imagereactshop from '../assets/reactshop.webp'
 import imagesearchmovie from '../assets/searchmovie.webp'
@@ -5,7 +6,22 @@ import imagelandingpage from '../assets/landingpage.webp'
 
 import './styles/MainProject.css'
 
-export const MainProjects = () => {
+export const MainProjects = ({ titleProject }) => {
+  const visibleRef = useRef(null)
+  const isVisibleProject = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        titleProject = true
+      } else {
+        titleProject = false
+      }
+    })
+  }
+  useEffect(() => {
+    const visibleProjectRef = visibleRef.current
+    const observer = new IntersectionObserver(isVisibleProject, {})
+    observer.observe(visibleProjectRef)
+  })
   return (
     <article id="project">
       <article className="card cardProject">
@@ -52,10 +68,7 @@ export const MainProjects = () => {
       </article>
       <article className="card cardProject">
         <h2>Landing Page Basic</h2>
-        <img
-          src={imagelandingpage}
-          alt="Project of Landing Page Basic"
-        />
+        <img src={imagelandingpage} alt="Project of Landing Page Basic" />
         <div>
           <a href="https://github.com/achipre/landing-page-basic" target="_blank" rel="noreferrer">
             <Github />
@@ -101,7 +114,12 @@ export const MainProjects = () => {
           </a>
         </div>
       </article>
-      <a href="https://github.com/achipre?tab=repositories" target="_blank" rel="noreferrer">
+      <a
+        ref={visibleRef}
+        href="https://github.com/achipre?tab=repositories"
+        target="_blank"
+        rel="noreferrer"
+      >
         <article className="card cardProject">
           <h2 className="vermas">See more...</h2>
           <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">

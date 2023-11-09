@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react'
 import { Header } from './componets/Header'
 import './App.css'
 import { handleColorTheme, useDark, useMenu } from './hooks/theme'
@@ -15,6 +16,33 @@ export function App () {
   const closeMenu = () => {
     handleMenu()
   }
+  const titleSection = useRef('Home')
+  const titleHome = null
+  const titleAbout = null
+  const titleProject = null
+  const titleBlog = null
+  const titleContact = null
+
+  const secVisibleRef = useRef(false)
+  const isVisibleSection = (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        titleSection.current = 'Home'
+      } else {
+        titleSection.current = 'About'
+      }
+    })
+  }
+  useEffect(() => {
+    const visibleSecRef = secVisibleRef.current
+    const observer = new IntersectionObserver(isVisibleSection, {})
+    observer.observe(visibleSecRef)
+    window.addEventListener('scroll', observer)
+    return () => {
+      window.removeEventListener('scroll', observer)
+    }
+  }, [isVisibleSection])
+  console.log(titleSection)
   return (
     <>
       <Header
@@ -25,12 +53,12 @@ export function App () {
         changeColorful={handleColorTheme}
       />
       {isOpenMenu && <Menu closeMenu={closeMenu} classTheme={themeOs} />}
-      <AsidePortfolio />
-      <MainHome />
-      <MainAbout />
-      <MainProjects />
-      <MainBlog />
-      <MainContact />
+      <AsidePortfolio title={titleSection.current} />
+      <MainHome secVisibleRef={secVisibleRef} titleHome={titleHome} />
+      <MainAbout titleAbout={titleAbout} />
+      <MainProjects titleProject={titleProject} />
+      <MainBlog titleBlog={titleBlog} />
+      <MainContact titleContact={titleContact} />
     </>
   )
 }
