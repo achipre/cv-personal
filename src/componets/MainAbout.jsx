@@ -1,9 +1,9 @@
 import { Css, Express, Html, JavaScript, Nest, Node, React, Tailwind } from './icons/Icons'
 import './styles/MainAbout.css'
 
-export const MainAbout = ({ titleAbout }) => {
+export const MainAbout = ({ visibleRef }) => {
   return (
-    <article id="about" ref={titleAbout}>
+    <article id="about" ref={visibleRef}>
       <div className="statistics">
         <div className="projects">
           <h2>+100</h2>

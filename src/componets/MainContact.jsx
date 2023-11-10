@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form'
 import './styles/MainContact.css'
 
-export const MainContact = ({ titleContact }) => {
+export const MainContact = ({ visibleRef }) => {
   const {
     formState: { errors },
     register,
@@ -13,7 +13,7 @@ export const MainContact = ({ titleContact }) => {
 
   return (
     <>
-      <article id="contact" ref={titleContact}>
+      <article id="contact" ref={visibleRef}>
         <h2>SEND ME A MESSAGE</h2>
         <form
           action="https://formsubmit.co/2d176eae38a4c77d0f49222fff14f2e4"

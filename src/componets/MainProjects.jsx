@@ -5,9 +5,9 @@ import imagelandingpage from '../assets/landingpage.webp'
 
 import './styles/MainProject.css'
 
-export const MainProjects = ({ titleProject }) => {
+export const MainProjects = ({ visibleRef }) => {
   return (
-    <article id="project" ref={titleProject}>
+    <article id="project" ref={visibleRef}>
       <article className="card cardProject">
         <h2>Tic-Tac-Toe</h2>
         <img
@@ -98,11 +98,7 @@ export const MainProjects = ({ titleProject }) => {
           </a>
         </div>
       </article>
-      <a
-        href="https://github.com/achipre?tab=repositories"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://github.com/achipre?tab=repositories" target="_blank" rel="noreferrer">
         <article className="card cardProject">
           <h2 className="vermas">See more...</h2>
           <svg className="cursorPlus" width="38" height="38" viewBox="0 0 38 38">

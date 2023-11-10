@@ -1,9 +1,9 @@
 import './styles/MainProject.css'
 import imageCss from '../assets/csstranslucid.jpg'
 
-export const MainBlog = ({ titleBlog }) => {
+export const MainBlog = ({ visibleRef }) => {
   return (
-    <article id="blog" ref={titleBlog}>
+    <article id="blog" ref={visibleRef}>
       <article className="card cardBlog">
         <a
           href="https://notiblogs.super.site/anlisis-libro-steve-jobs"

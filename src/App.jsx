@@ -18,23 +18,42 @@ export function App () {
   }
 
   const [sectionVisible, setSectionVisible] = useState('Home')
-  const visibleRef = { home: useRef(null) }
+  const visibleRef = {
+    home: useRef(null),
+    about: useRef(null),
+    project: useRef(null),
+    blog: useRef(null),
+    contact: useRef(null)
+  }
+  // Object.values(visibleRef).forEach(secc => console.log(secc))
   const isVisibleSec = (entries, observer) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        setSectionVisible('Home')
-      } else {
-        setSectionVisible('About me')
+      if (entry.target.id === 'home' && entry.isIntersecting) {
+        return setSectionVisible('Home')
+      } else if (entry.target.id === 'about' && entry.isIntersecting) {
+        return setSectionVisible('About me')
+      } else if (entry.target.id === 'project' && entry.isIntersecting) {
+        return setSectionVisible('Project')
+      } else if (entry.target.id === 'blog' && entry.isIntersecting) {
+        return setSectionVisible('Blog')
+      } else if (entry.target.id === 'contact' && entry.isIntersecting) {
+        return setSectionVisible('Contact')
       }
     })
   }
   useEffect(() => {
-    const visibleSec = visibleRef.home.current
-    const observer = new IntersectionObserver(isVisibleSec, { rootMargin: '-64px' })
+    const visibleSecH = visibleRef.home.current
+    const visibleSecA = visibleRef.about.current
+    const visibleSecP = visibleRef.project.current
+    const visibleSecB = visibleRef.blog.current
+    const visibleSecC = visibleRef.contact.current
+    const observer = new IntersectionObserver(isVisibleSec, { threshold: 0.4 })
 
-    Object.values(visibleRef).forEach(() => {
-      observer.observe(visibleSec)
-    })
+    observer.observe(visibleSecH)
+    observer.observe(visibleSecA)
+    observer.observe(visibleSecP)
+    observer.observe(visibleSecB)
+    observer.observe(visibleSecC)
   }, [])
 
   return (
@@ -49,10 +68,10 @@ export function App () {
       {isOpenMenu && <Menu closeMenu={closeMenu} classTheme={themeOs} />}
       <AsidePortfolio sectionVisible={sectionVisible} />
       <MainHome visibleRef={visibleRef.home} />
-      <MainAbout />
-      <MainProjects />
-      <MainBlog />
-      <MainContact />
+      <MainAbout visibleRef={visibleRef.about} />
+      <MainProjects visibleRef={visibleRef.project} />
+      <MainBlog visibleRef={visibleRef.blog} />
+      <MainContact visibleRef={visibleRef.contact} />
     </>
   )
 }
