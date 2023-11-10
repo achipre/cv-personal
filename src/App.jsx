@@ -47,7 +47,7 @@ export function App () {
     const visibleSecP = visibleRef.project.current
     const visibleSecB = visibleRef.blog.current
     const visibleSecC = visibleRef.contact.current
-    const observer = new IntersectionObserver(isVisibleSec, { threshold: 0.4 })
+    const observer = new IntersectionObserver(isVisibleSec, { threshold: 0.6 })
 
     observer.observe(visibleSecH)
     observer.observe(visibleSecA)
