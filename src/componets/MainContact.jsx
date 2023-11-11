@@ -1,56 +1,70 @@
 import { useForm } from 'react-hook-form'
 import './styles/MainContact.css'
+import { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 export const MainContact = ({ visibleRef }) => {
+  const form = useRef()
+  const [valueButton, setValueButton] = useState('SEND MESSAGE')
   const {
     formState: { errors },
     register,
+    reset,
     handleSubmit
   } = useForm()
   const handled = () => {
-    console.log('Send Message')
+    setValueButton('SENDING...')
+    const serviceID = 'default_service'
+    const templateID = 'template_yntpglo'
+
+    emailjs.sendForm(serviceID, templateID, form.current, 'SU5d0oyVHaJEhz5U6').then(
+      () => {
+        setTimeout(() => {
+          setValueButton('SUCCESS')
+          reset()
+        }, 250)
+        setTimeout(() => {
+          setValueButton('SEND MESSAGE')
+        }, 1000)
+      },
+      err => {
+        alert(JSON.stringify(err))
+      }
+    )
   }
 
   return (
     <>
       <article id="contact" ref={visibleRef}>
         <h2>SEND ME A MESSAGE</h2>
-        <form
-          action="https://formsubmit.co/2d176eae38a4c77d0f49222fff14f2e4"
-          method="POST"
-          className="formulario "
-          id="form"
-          onSubmit={handleSubmit(handled)}
-        >
+        <form ref={form} className="formulario " id="form" onSubmit={handleSubmit(handled)}>
           <input
-            {...register('fullName', { required: true })}
-            name="fullName"
+            {...register('from_fullname', { required: true })}
+            id="fullname"
             className="formcontato__input"
             type="text"
             placeholder="FULL NAME"
           />
-          {errors?.fullName?.type === 'required' && (
+          {errors?.from_fullname?.type === 'required' && (
             <p className="errorMessage">*Please fill out this field.</p>
           )}
           <input
-            {...register('email', {
+            {...register('from_email', {
               required: true,
               pattern: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/gi
             })}
-            name="email"
             id="email"
             className="formcontato__input"
             placeholder="EMAIL"
           />
-          {errors?.email?.type === 'required' && (
+          {errors?.from_email?.type === 'required' && (
             <p className="errorMessage">*Please fill out this field.</p>
           )}
-          {errors?.email?.type === 'pattern' && (
+          {errors?.from_email?.type === 'pattern' && (
             <p className="errorMessage">*Please type a correct email address.</p>
           )}
           <textarea
             {...register('message', { required: true })}
-            name="message"
             className="formcontato__textarea"
             rows="5"
             cols="40"
@@ -60,7 +74,7 @@ export const MainContact = ({ visibleRef }) => {
           {errors?.message?.type === 'required' && (
             <p className="errorMessage">*Please fill out this field.</p>
           )}
-          <input type="submit" id="button" value="SEND MESSAGE" />
+          <input type="submit" id="button" value={valueButton} />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://chipre.netlify.app/" />
         </form>
