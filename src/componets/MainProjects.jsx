@@ -1,13 +1,31 @@
 import { Github, Link } from './icons/Icons'
 import imagereactshop from '../assets/reactshop.webp'
 import imagesearchmovie from '../assets/searchmovie.webp'
-import imagelandingpage from '../assets/landingpage.webp'
 
 import './styles/MainProject.css'
 
 export const MainProjects = ({ visibleRef }) => {
   return (
     <article id="project" ref={visibleRef}>
+      <article className="card cardProject">
+        <h2>Social Clone</h2>
+        <img
+          src="https://res.cloudinary.com/dwtmwmafj/image/upload/v1708467414/Portfolio/jpghfnfrzqyt0ibn6ar4.webp"
+          alt="Project of Instagram Clone"
+        />
+        <div>
+          <a
+            href="https://github.com/achipre/insta-clone"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
+          </a>
+          <a href="https://photogram-clone.netlify.app" target="_blank" rel="noreferrer">
+            <Link />
+          </a>
+        </div>
+      </article>
       <article className="card cardProject">
         <h2>Tic-Tac-Toe</h2>
         <img
@@ -50,18 +68,7 @@ export const MainProjects = ({ visibleRef }) => {
           </a>
         </div>
       </article>
-      <article className="card cardProject">
-        <h2>Landing Page Basic</h2>
-        <img src={imagelandingpage} alt="Project of Landing Page Basic" />
-        <div>
-          <a href="https://github.com/achipre/landing-page-basic" target="_blank" rel="noreferrer">
-            <Github />
-          </a>
-          <a href="https://achipre.github.io/landing-page-basic/" target="_blank" rel="noreferrer">
-            <Link />
-          </a>
-        </div>
-      </article>
+
       <article className="card cardProject">
         <h2>Search Movie</h2>
         <img src={imagesearchmovie} alt="Project of Movie App" />
