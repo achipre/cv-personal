@@ -3,7 +3,7 @@ import './styles/MainAbout.css'
 
 export const MainAbout = ({ visibleRef }) => {
   return (
-    <article id="about" ref={visibleRef}>
+    <article className='sectionAnimate' id="about" ref={visibleRef}>
       <div className="statistics">
         <div className="projects">
           <h2>+100</h2>

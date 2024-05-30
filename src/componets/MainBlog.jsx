@@ -3,7 +3,7 @@ import imageCss from '../assets/csstranslucid.jpg'
 
 export const MainBlog = ({ visibleRef }) => {
   return (
-    <article id="blog" ref={visibleRef}>
+    <article className='sectionAnimate' id="blog" ref={visibleRef}>
       <article className="card cardBlog">
         <a
           href="https://notiblogs.super.site/anlisis-libro-steve-jobs"

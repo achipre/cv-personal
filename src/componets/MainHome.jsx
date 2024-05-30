@@ -4,7 +4,7 @@ import './styles/MainHome.css'
 
 export const MainHome = ({ visibleRef }) => {
   return (
-    <article id="home" ref={visibleRef}>
+    <article className='sectionAnimate' id="home" ref={visibleRef}>
       <h1>ALEX CHIPRE</h1>
       <h2>Full Stack Developer</h2>
       <p className="homeParagraph">

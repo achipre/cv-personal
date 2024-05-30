@@ -6,7 +6,7 @@ import './styles/MainProject.css'
 
 export const MainProjects = ({ visibleRef }) => {
   return (
-    <article id="project" ref={visibleRef}>
+    <article className='sectionAnimate' id="project" ref={visibleRef}>
       <article className="card cardProject">
         <h2>Social Clone</h2>
         <img
