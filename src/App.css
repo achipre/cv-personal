@@ -1,6 +1,6 @@
 :root {
-  --darkPrimary: #18122B;
-  --darkPrimary0: #1B2430;
+  --darkPrimary: #18122b;
+  --darkPrimary0: #1b2430;
   --darkPrimary1: #053f7b;
   --darkPrimary2: #086c7c;
   --darkPrimary3: #0d31b5;
@@ -11,7 +11,7 @@
   --darkPrimary8: #380844;
   --darkPrimary9: #4f25a4;
   --lightPrimary: #aea8c6;
-  --lightPrimary0: #FEFBF6;
+  --lightPrimary0: #fefbf6;
   --lightPrimary1: #ffa500;
   --lightPrimary2: #95f2e9;
   --lightPrimary3: #fbb1ba;
@@ -27,40 +27,41 @@
 .dark #blog .card:last-child:hover,
 .light #project .card,
 .light #blog .card a,
+.light .messageToast,
 .light #blog .card,
 .light div a svg,
-.light .card div
-{
-  background-image: url('./assets/techLight.svg');
+.light .card div {
+  background-image: url("./assets/techLight.svg");
   background-color: var(--darkPrimary);
-  color: var(--lightPrimary) ;
-  fill: var(--lightPrimary) ;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
+  color: var(--lightPrimary);
+  fill: var(--lightPrimary);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    fill 0.2s ease-in-out;
 }
 .dark .formulario input,
 .dark .formulario textarea,
-.dark .formulario input::placeholder{
+.dark .formulario input::placeholder {
   border-bottom: 2px solid var(--lightPrimary);
-  color: var(--lightPrimary) ;
+  color: var(--lightPrimary);
 }
-.dark .formulario  input[type='submit']{
+.dark .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary);
-  color: var(--lightPrimary) ;
+  color: var(--lightPrimary);
 }
-.dark .formulario  input[type='submit']:hover{
+.dark .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary);
-  background-color: var(--lightPrimary) ;
-  color: var(--darkPrimary) ;
+  background-color: var(--lightPrimary);
+  color: var(--darkPrimary);
 }
-.light .iconSvg{
-  background-color: var(--lightPrimary) ;
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+.light .iconSvg {
+  background-color: var(--lightPrimary);
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.light .iconSvg{
+.light .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.dark .formulario textarea::placeholder{
+.dark .formulario textarea::placeholder {
   color: var(--lightPrimary);
 }
 .light,
@@ -68,39 +69,41 @@
 .light #blog .card:last-child:hover,
 .dark #project .card,
 .dark #blog .card a,
+.dark .messageToast,
 .dark #blog .card,
 .dark div a svg,
-.dark .card div{
-  background-image: url('./assets/techDark.svg');
+.dark .card div {
+  background-image: url("./assets/techDark.svg");
   background-color: var(--lightPrimary);
-  color: var(--darkPrimary) ;
-  fill: var(--darkPrimary) ;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
+  color: var(--darkPrimary);
+  fill: var(--darkPrimary);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    fill 0.2s ease-in-out;
 }
 .light .formulario input,
 .light .formulario textarea,
-.light .formulario input::placeholder{
+.light .formulario input::placeholder {
   color: var(--darkPrimary);
   border-bottom: 2px solid var(--darkPrimary);
 }
-.light .formulario  input[type='submit'] {
+.light .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary);
   color: var(--darkPrimary);
 }
-.light .formulario  input[type='submit']:hover{
+.light .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary);
   background-color: var(--darkPrimary);
   color: var(--lightPrimary);
 }
 .dark .iconSvg {
   background-color: var(--darkPrimary);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.light .formulario textarea::placeholder{
+.light .formulario textarea::placeholder {
   color: var(--darkPrimary);
 }
 .dark0,
@@ -109,12 +112,14 @@
 .light0 #project .card,
 .light0 #blog .card a,
 .light0 #blog .card,
+.light0 .messageToast,
 .light0 .card div a svg,
-.light0 .card div{
+.light0 .card div {
   background-color: var(--darkPrimary0);
-  color: var(--lightPrimary0) ;
-  fill: var(--lightPrimary0) ;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out, fill .2s ease-in-out;
+  color: var(--lightPrimary0);
+  fill: var(--lightPrimary0);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    fill 0.2s ease-in-out;
 }
 .dark0 .formulario input,
 .dark0 .formulario textarea,
@@ -123,42 +128,42 @@
   color: var(--lightPrimary0);
 }
 
-.dark0 .formulario  input[type='submit'] {
+.dark0 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary0);
   color: var(--lightPrimary0);
 }
 
-.dark0 .formulario  input[type='submit']:hover {
+.dark0 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary0);
   background-color: var(--lightPrimary0);
   color: var(--darkPrimary0);
-  transition: background-color .2s ease-in-out,
+  transition: background-color 0.2s ease-in-out;
 }
 .light0 .iconSvg {
   background-color: var(--lightPrimary0);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light0 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary0);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark0 .formulario textarea::placeholder {
   color: var(--lightPrimary0);
-
 }
 .light0,
 .light0 #project .card:last-child:hover,
 .light0 #blog .card:last-child:hover,
 .dark0 #project .card,
 .dark0 #blog .card a,
+.dark0 .messageToast,
 .dark0 #blog .card,
 .dark0 .card div a svg,
-.dark0 .card div{
+.dark0 .card div {
   background-color: var(--lightPrimary0);
-  color: var(--darkPrimary0) ;
-  fill: var(--darkPrimary0) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary0);
+  fill: var(--darkPrimary0);
+  transition: background-color 0.2s ease-in-out;
 }
 .light0 .formulario input,
 .light0 .formulario textarea,
@@ -167,24 +172,24 @@
   border-bottom: 2px solid var(--darkPrimary0);
 }
 
-.light0 .formulario  input[type='submit'] {
+.light0 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary0);
   color: var(--darkPrimary0);
 }
 
-.light0 .formulario  input[type='submit']:hover {
+.light0 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary0);
   background-color: var(--darkPrimary0);
   color: var(--lightPrimary0);
 }
 .dark0 .iconSvg {
   background-color: var(--darkPrimary0);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark0 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary0);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light0 .formulario textarea::placeholder {
   color: var(--darkPrimary0);
@@ -194,14 +199,15 @@
 .dark1 #blog .card:last-child:hover,
 .light1 #project .card,
 .light1 #blog .card a,
+.light1 .messageToast,
 .light1 #blog .card,
 .light1 div a svg,
-.light1 .card div{
-  background-image: url('./assets/cellsDark.svg');
+.light1 .card div {
+  background-image: url("./assets/cellsDark.svg");
   background-color: var(--darkPrimary1);
-  color: var(--lightPrimary1) ;
-  fill: var(--lightPrimary1) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary1);
+  fill: var(--lightPrimary1);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark1 .formulario input,
 .dark1 .formulario textarea,
@@ -210,24 +216,24 @@
   color: var(--lightPrimary1);
 }
 
-.dark1 .formulario  input[type='submit'] {
+.dark1 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary1);
   color: var(--lightPrimary1);
 }
 
-.dark1 .formulario  input[type='submit']:hover {
+.dark1 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary1);
   background-color: var(--lightPrimary1);
   color: var(--darkPrimary1);
 }
 .light1 .iconSvg {
   background-color: var(--lightPrimary1);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light1 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary1);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark1 .formulario textarea::placeholder {
   color: var(--lightPrimary1);
@@ -237,14 +243,15 @@
 .light1 #blog .card:last-child:hover,
 .dark1 #project .card,
 .dark1 #blog .card a,
+.dark1 .messageToast,
 .dark1 #blog .card,
 .dark1 div a svg,
-.dark1 .card div{
-  background-image: url('./assets/cellsLight.svg');
+.dark1 .card div {
+  background-image: url("./assets/cellsLight.svg");
   background-color: var(--lightPrimary1);
-  color: var(--darkPrimary1) ;
-  fill: var(--darkPrimary1) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary1);
+  fill: var(--darkPrimary1);
+  transition: background-color 0.2s ease-in-out;
 }
 .light1 .formulario input,
 .light1 .formulario textarea,
@@ -253,24 +260,24 @@
   border-bottom: 2px solid var(--darkPrimary1);
 }
 
-.light1 .formulario  input[type='submit'] {
+.light1 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary1);
   color: var(--darkPrimary1);
 }
 
-.light1 .formulario  input[type='submit']:hover {
+.light1 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary1);
   background-color: var(--darkPrimary1);
   color: var(--lightPrimary1);
 }
 .dark1 .iconSvg {
   background-color: var(--darkPrimary1);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark1 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary1);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light1 .formulario textarea::placeholder {
   color: var(--darkPrimary1);
@@ -280,14 +287,15 @@
 .dark2 #blog .card:last-child:hover,
 .light2 #project .card,
 .light2 #blog .card a,
+.light2 .messageToast,
 .light2 #blog .card,
 .light2 div a svg,
-.light2 .card div{
-  background-image: url('./assets/dotDark.svg');
+.light2 .card div {
+  background-image: url("./assets/dotDark.svg");
   background-color: var(--darkPrimary2);
-  color: var(--lightPrimary2) ;
-  fill: var(--lightPrimary2) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary2);
+  fill: var(--lightPrimary2);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark2 .formulario input,
 .dark2 .formulario textarea,
@@ -296,24 +304,24 @@
   color: var(--lightPrimary2);
 }
 
-.dark2 .formulario  input[type='submit'] {
+.dark2 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary2);
   color: var(--lightPrimary2);
 }
 
-.dark2 .formulario  input[type='submit']:hover {
+.dark2 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary2);
   background-color: var(--lightPrimary2);
   color: var(--darkPrimary2);
 }
 .light2 .iconSvg {
   background-color: var(--lightPrimary2);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light2 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary2);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark2 .formulario textarea::placeholder {
   color: var(--lightPrimary2);
@@ -323,14 +331,15 @@
 .light2 #blog .card:last-child:hover,
 .dark2 #project .card,
 .dark2 #blog .card a,
+.dark2 .messageToast,
 .dark2 #blog .card,
 .dark2 div a svg,
-.dark2 .card div{
-  background-image: url('./assets/dotLigth.svg');
+.dark2 .card div {
+  background-image: url("./assets/dotLigth.svg");
   background-color: var(--lightPrimary2);
-  color: var(--darkPrimary2) ;
-  fill: var(--darkPrimary2) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary2);
+  fill: var(--darkPrimary2);
+  transition: background-color 0.2s ease-in-out;
 }
 .light2 .formulario input,
 .light2 .formulario textarea,
@@ -339,24 +348,24 @@
   border-bottom: 2px solid var(--darkPrimary2);
 }
 
-.light2 .formulario  input[type='submit'] {
+.light2 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary2);
   color: var(--darkPrimary2);
 }
 
-.light2 .formulario  input[type='submit']:hover {
+.light2 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary2);
   background-color: var(--darkPrimary2);
   color: var(--lightPrimary2);
 }
 .dark2 .iconSvg {
   background-color: var(--darkPrimary2);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark2 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary2);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light2 .formulario textarea::placeholder {
   color: var(--darkPrimary2);
@@ -366,14 +375,15 @@
 .dark3 #blog .card:last-child:hover,
 .light3 #project .card,
 .light3 #blog .card a,
+.light3 .messageToast,
 .light3 #blog .card,
 .light3 div a svg,
-.light3 .card div{
-  background-image: url('./assets/metalDark.svg');
+.light3 .card div {
+  background-image: url("./assets/metalDark.svg");
   background-color: var(--darkPrimary3);
-  color: var(--lightPrimary3) ;
-  fill: var(--lightPrimary3) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary3);
+  fill: var(--lightPrimary3);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark3 .formulario input,
 .dark3 .formulario textarea,
@@ -382,24 +392,24 @@
   color: var(--lightPrimary3);
 }
 
-.dark3 .formulario  input[type='submit'] {
+.dark3 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary3);
   color: var(--lightPrimary3);
 }
 
-.dark3 .formulario  input[type='submit']:hover {
+.dark3 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary3);
   background-color: var(--lightPrimary3);
   color: var(--darkPrimary3);
 }
 .light3 .iconSvg {
   background-color: var(--lightPrimary3);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light3 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary3);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark3 .formulario textarea::placeholder {
   color: var(--lightPrimary3);
@@ -409,14 +419,15 @@
 .light3 #blog .card:last-child:hover,
 .dark3 #project .card,
 .dark3 #blog .card a,
+.dark3 .messageToast,
 .dark3 #blog .card,
 .dark3 div a svg,
-.dark3 .card div{
+.dark3 .card div {
   background-color: var(--lightPrimary3);
-  background-image: url('./assets/metalLight.svg');
-  color: var(--darkPrimary3) ;
-  fill: var(--darkPrimary3) ;
-  transition: background-color .2s ease-in-out;
+  background-image: url("./assets/metalLight.svg");
+  color: var(--darkPrimary3);
+  fill: var(--darkPrimary3);
+  transition: background-color 0.2s ease-in-out;
 }
 .light3 .formulario input,
 .light3 .formulario textarea,
@@ -425,24 +436,24 @@
   border-bottom: 2px solid var(--darkPrimary3);
 }
 
-.light3 .formulario  input[type='submit'] {
+.light3 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary3);
   color: var(--darkPrimary3);
 }
 
-.light3 .formulario  input[type='submit']:hover {
+.light3 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary3);
   background-color: var(--darkPrimary3);
   color: var(--lightPrimary3);
 }
 .dark3 .iconSvg {
   background-color: var(--darkPrimary3);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark3 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary3);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light3 .formulario textarea::placeholder {
   color: var(--darkPrimary3);
@@ -452,14 +463,15 @@
 .dark4 #blog .card:last-child:hover,
 .light4 #project .card,
 .light4 #blog .card a,
+.light4 .messageToast,
 .light4 #blog .card,
 .light4 div a svg,
-.light4 .card div{
-  background-image: url('./assets/pillsDark.svg');
+.light4 .card div {
+  background-image: url("./assets/pillsDark.svg");
   background-color: var(--darkPrimary4);
-  color: var(--lightPrimary4) ;
-  fill: var(--lightPrimary4) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary4);
+  fill: var(--lightPrimary4);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark4 .formulario input,
 .dark4 .formulario textarea,
@@ -468,24 +480,24 @@
   color: var(--lightPrimary4);
 }
 
-.dark4 .formulario  input[type='submit'] {
+.dark4 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary4);
   color: var(--lightPrimary4);
 }
 
-.dark4 .formulario  input[type='submit']:hover {
+.dark4 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary4);
   background-color: var(--lightPrimary4);
   color: var(--darkPrimary4);
 }
 .light4 .iconSvg {
   background-color: var(--lightPrimary4);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light4 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary4);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark4 .formulario textarea::placeholder {
   color: var(--lightPrimary4);
@@ -495,14 +507,15 @@
 .light4 #blog .card:last-child:hover,
 .dark4 #project .card,
 .dark4 #blog .card a,
+.dark4 .messageToast,
 .dark4 #blog .card,
 .dark4 div a svg,
-.dark4 .card div{
-  background-image: url('./assets/pillsLight.svg');
+.dark4 .card div {
+  background-image: url("./assets/pillsLight.svg");
   background-color: var(--lightPrimary4);
-  color: var(--darkPrimary4) ;
-  fill: var(--darkPrimary4) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary4);
+  fill: var(--darkPrimary4);
+  transition: background-color 0.2s ease-in-out;
 }
 .light4 .formulario input,
 .light4 .formulario textarea,
@@ -511,24 +524,24 @@
   border-bottom: 2px solid var(--darkPrimary4);
 }
 
-.light4 .formulario  input[type='submit'] {
+.light4 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary4);
   color: var(--darkPrimary4);
 }
 
-.light4 .formulario  input[type='submit']:hover {
+.light4 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary4);
   background-color: var(--darkPrimary4);
   color: var(--lightPrimary4);
 }
 .dark4 .iconSvg {
   background-color: var(--darkPrimary4);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark4 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary4);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light4 .formulario textarea::placeholder {
   color: var(--darkPrimary4);
@@ -538,13 +551,14 @@
 .dark5 #blog .card:last-child:hover,
 .light5 #project .card,
 .light5 #blog .card a,
+.light5 .messageToast,
 .light5 #blog .card,
 .light5 div a svg,
-.light5 .card div{
+.light5 .card div {
   background-color: var(--darkPrimary5);
-  color: var(--lightPrimary5) ;
-  fill: var(--lightPrimary5) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary5);
+  fill: var(--lightPrimary5);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark5 .formulario input,
 .dark5 .formulario textarea,
@@ -553,24 +567,24 @@
   color: var(--lightPrimary5);
 }
 
-.dark5 .formulario  input[type='submit'] {
+.dark5 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary5);
   color: var(--lightPrimary5);
 }
 
-.dark5 .formulario  input[type='submit']:hover {
+.dark5 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary5);
   background-color: var(--lightPrimary5);
   color: var(--darkPrimary5);
 }
 .light5 .iconSvg {
   background-color: var(--lightPrimary5);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light5 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary5);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark5 .formulario textarea::placeholder {
   color: var(--lightPrimary5);
@@ -580,13 +594,14 @@
 .light5 #blog .card:last-child:hover,
 .dark5 #project .card,
 .dark5 #blog .card a,
+.dark5 .messageToast,
 .dark5 #blog .card,
 .dark5 div a svg,
-.dark5 .card div{
+.dark5 .card div {
   background-color: var(--lightPrimary5);
-  color: var(--darkPrimary5) ;
-  fill: var(--darkPrimary5) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary5);
+  fill: var(--darkPrimary5);
+  transition: background-color 0.2s ease-in-out;
 }
 .light5 .formulario input,
 .light5 .formulario textarea,
@@ -595,24 +610,24 @@
   border-bottom: 2px solid var(--darkPrimary5);
 }
 
-.light5 .formulario  input[type='submit'] {
+.light5 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary5);
   color: var(--darkPrimary5);
 }
 
-.light5 .formulario  input[type='submit']:hover {
+.light5 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary5);
   background-color: var(--darkPrimary5);
   color: var(--lightPrimary5);
 }
 .dark5 .iconSvg {
   background-color: var(--darkPrimary5);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark5 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary5);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light5 .formulario textarea::placeholder {
   color: var(--darkPrimary5);
@@ -622,13 +637,14 @@
 .dark6 #blog .card:last-child:hover,
 .light6 #project .card,
 .light6 #blog .card a,
+.light6 .messageToast,
 .light6 #blog .card,
 .light6 div a svg,
-.light6 .card div{
+.light6 .card div {
   background-color: var(--darkPrimary6);
-  color: var(--lightPrimary6) ;
-  fill: var(--lightPrimary6) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary6);
+  fill: var(--lightPrimary6);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark6 .formulario input,
 .dark6 .formulario textarea,
@@ -637,24 +653,24 @@
   color: var(--lightPrimary6);
 }
 
-.dark6 .formulario  input[type='submit'] {
+.dark6 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary6);
   color: var(--lightPrimary6);
 }
 
-.dark6 .formulario  input[type='submit']:hover {
+.dark6 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary6);
   background-color: var(--lightPrimary6);
   color: var(--darkPrimary6);
 }
 .light6 .iconSvg {
   background-color: var(--lightPrimary6);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light6 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary6);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark6 .formulario textarea::placeholder {
   color: var(--lightPrimary6);
@@ -664,13 +680,14 @@
 .light6 #blog .card:last-child:hover,
 .dark6 #project .card,
 .dark6 #blog .card a,
+.dark6 .messageToast,
 .dark6 #blog .card,
 .dark6 div a svg,
-.dark6 .card div{
+.dark6 .card div {
   background-color: var(--lightPrimary6);
-  color: var(--darkPrimary6) ;
-  fill: var(--darkPrimary6) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary6);
+  fill: var(--darkPrimary6);
+  transition: background-color 0.2s ease-in-out;
 }
 .light6 .formulario input,
 .light6 .formulario textarea,
@@ -679,24 +696,24 @@
   border-bottom: 2px solid var(--darkPrimary6);
 }
 
-.light6 .formulario  input[type='submit'] {
+.light6 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary6);
   color: var(--darkPrimary6);
 }
 
-.light6 .formulario  input[type='submit']:hover {
+.light6 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary6);
   background-color: var(--darkPrimary6);
   color: var(--lightPrimary6);
 }
 .dark6 .iconSvg {
   background-color: var(--darkPrimary6);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark6 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary6);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light6 .formulario textarea::placeholder {
   color: var(--darkPrimary6);
@@ -706,13 +723,14 @@
 .dark7 #blog .card:last-child:hover,
 .light7 #project .card,
 .light7 #blog .card a,
+.light7 .messageToast,
 .light7 #blog .card,
 .light7 div a svg,
-.light7 .card div{
+.light7 .card div {
   background-color: var(--darkPrimary7);
-  color: var(--lightPrimary7) ;
-  fill: var(--lightPrimary7) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary7);
+  fill: var(--lightPrimary7);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark7 .formulario input,
 .dark7 .formulario textarea,
@@ -721,24 +739,24 @@
   color: var(--lightPrimary7);
 }
 
-.dark7 .formulario  input[type='submit'] {
+.dark7 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary7);
   color: var(--lightPrimary7);
 }
 
-.dark7 .formulario  input[type='submit']:hover {
+.dark7 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary7);
   background-color: var(--lightPrimary7);
   color: var(--darkPrimary7);
 }
 .light7 .iconSvg {
   background-color: var(--lightPrimary7);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light7 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary7);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark7 .formulario textarea::placeholder {
   color: var(--lightPrimary7);
@@ -748,13 +766,14 @@
 .light7 #blog .card:last-child:hover,
 .dark7 #project .card,
 .dark7 #blog .card a,
+.dark7 .messageToast,
 .dark7 #blog .card,
 .dark7 div a svg,
-.dark7 .card div{
+.dark7 .card div {
   background-color: var(--lightPrimary7);
-  color: var(--darkPrimary7) ;
-  fill: var(--darkPrimary7) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary7);
+  fill: var(--darkPrimary7);
+  transition: background-color 0.2s ease-in-out;
 }
 .light7 .formulario input,
 .light7 .formulario textarea,
@@ -763,24 +782,24 @@
   border-bottom: 2px solid var(--darkPrimary7);
 }
 
-.light7 .formulario  input[type='submit'] {
+.light7 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary7);
   color: var(--darkPrimary7);
 }
 
-.light7 .formulario  input[type='submit']:hover {
+.light7 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary7);
   background-color: var(--darkPrimary7);
   color: var(--lightPrimary7);
 }
 .dark7 .iconSvg {
   background-color: var(--darkPrimary7);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark7 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary7);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light7 .formulario textarea::placeholder {
   color: var(--darkPrimary7);
@@ -790,13 +809,14 @@
 .dark8 #blog .card:last-child:hover,
 .light8 #project .card,
 .light8 #blog .card a,
+.light8 .messageToast,
 .light8 #blog .card,
 .light8 div a svg,
-.light8 .card div{
+.light8 .card div {
   background-color: var(--darkPrimary8);
-  color: var(--lightPrimary8) ;
-  fill: var(--lightPrimary8) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary8);
+  fill: var(--lightPrimary8);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark8 .formulario input,
 .dark8 .formulario textarea,
@@ -805,24 +825,24 @@
   color: var(--lightPrimary8);
 }
 
-.dark8 .formulario  input[type='submit'] {
+.dark8 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary8);
   color: var(--lightPrimary8);
 }
 
-.dark8 .formulario  input[type='submit']:hover {
+.dark8 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary8);
   background-color: var(--lightPrimary8);
   color: var(--darkPrimary8);
 }
 .light8 .iconSvg {
   background-color: var(--lightPrimary8);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light8 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary8);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark8 .formulario textarea::placeholder {
   color: var(--lightPrimary8);
@@ -832,13 +852,14 @@
 .light8 #blog .card:last-child:hover,
 .dark8 #project .card,
 .dark8 #blog .card a,
+.dark8 .messageToast,
 .dark8 #blog .card,
 .dark8 div a svg,
-.dark8 .card div{
+.dark8 .card div {
   background-color: var(--lightPrimary8);
-  color: var(--darkPrimary8) ;
-  fill: var(--darkPrimary8) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary8);
+  fill: var(--darkPrimary8);
+  transition: background-color 0.2s ease-in-out;
 }
 .light8 .formulario input,
 .light8 .formulario textarea,
@@ -847,24 +868,24 @@
   border-bottom: 2px solid var(--darkPrimary8);
 }
 
-.light8 .formulario  input[type='submit'] {
+.light8 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary8);
   color: var(--darkPrimary8);
 }
 
-.light8 .formulario  input[type='submit']:hover {
+.light8 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary8);
   background-color: var(--darkPrimary8);
   color: var(--lightPrimary8);
 }
 .dark8 .iconSvg {
   background-color: var(--darkPrimary8);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .dark8 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary8);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light8 .formulario textarea::placeholder {
   color: var(--darkPrimary8);
@@ -874,15 +895,16 @@
 .dark9 #blog .card:last-child:hover,
 .light9 #project .card,
 .light9 #blog .card a,
+.light9 .messageToast,
 .light9 #blog .card,
 .light9 div a svg,
-.light9 .card div{
-  background-image: url('./assets/circleDark.svg');
+.light9 .card div {
+  background-image: url("./assets/circleDark.svg");
   background-size: 32px;
   background-color: var(--darkPrimary9);
-  color: var(--lightPrimary9) ;
-  fill: var(--lightPrimary9) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--lightPrimary9);
+  fill: var(--lightPrimary9);
+  transition: background-color 0.2s ease-in-out;
 }
 .dark9 .formulario input,
 .dark9 .formulario textarea,
@@ -891,23 +913,23 @@
   color: var(--lightPrimary9);
 }
 
-.dark9 .formulario  input[type='submit'] {
+.dark9 .formulario input[type="submit"] {
   border: 2px solid var(--lightPrimary9);
   color: var(--lightPrimary9);
 }
-.dark9 .formulario  input[type='submit']:hover {
+.dark9 .formulario input[type="submit"]:hover {
   border: 2px solid var(--lightPrimary9);
   background-color: var(--lightPrimary9);
   color: var(--darkPrimary9);
 }
 .light9 .iconSvg {
   background-color: var(--lightPrimary9);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .light9 .iconSvg {
   box-shadow: 0 0 0 5px var(--lightPrimary9);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark9 .formulario textarea::placeholder {
   color: var(--lightPrimary9);
@@ -917,15 +939,16 @@
 .light9 #blog .card:last-child:hover,
 .dark9 #project .card,
 .dark9 #blog .card a,
+.dark9 .messageToast,
 .dark9 #blog .card,
 .dark9 div a svg,
-.dark9 .card div{
-  background-image: url('./assets/circleLight.svg');
+.dark9 .card div {
+  background-image: url("./assets/circleLight.svg");
   background-size: 32px;
   background-color: var(--lightPrimary9);
-  color: var(--darkPrimary9) ;
-  fill: var(--darkPrimary9) ;
-  transition: background-color .2s ease-in-out;
+  color: var(--darkPrimary9);
+  fill: var(--darkPrimary9);
+  transition: background-color 0.2s ease-in-out;
 }
 .light9 .formulario input,
 .light9 .formulario textarea,
@@ -933,22 +956,22 @@
   color: var(--darkPrimary9);
   border-bottom: 2px solid var(--darkPrimary9);
 }
-.light9 .formulario  input[type='submit'] {
+.light9 .formulario input[type="submit"] {
   border: 2px solid var(--darkPrimary9);
   color: var(--darkPrimary9);
 }
-.light9 .formulario  input[type='submit']:hover {
+.light9 .formulario input[type="submit"]:hover {
   border: 2px solid var(--darkPrimary9);
   background-color: var(--darkPrimary9);
   color: var(--lightPrimary9);
 }
 .dark9 .iconSvg {
   background-color: var(--darkPrimary9);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .dark9 .iconSvg {
   box-shadow: 0 0 0 5px var(--darkPrimary9);
-  transition: background-color .2s ease-in-out, box-shadow .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .light9 .formulario textarea::placeholder {
   color: var(--darkPrimary9);

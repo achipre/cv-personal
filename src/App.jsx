@@ -9,6 +9,7 @@ import { MainAbout } from './componets/MainAbout'
 import { MainProjects } from './componets/MainProjects'
 import { MainBlog } from './componets/MainBlog'
 import { MainContact } from './componets/MainContact'
+import { ToastMessage } from './componets/ToastMessage'
 
 export function App () {
   const { themeOs, theme, handleTheme } = useDark()
@@ -72,6 +73,7 @@ export function App () {
       <MainProjects visibleRef={visibleRef.project} />
       <MainBlog visibleRef={visibleRef.blog} />
       <MainContact visibleRef={visibleRef.contact} />
+      <ToastMessage />
     </>
   )
 }
