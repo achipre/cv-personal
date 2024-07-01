@@ -2,10 +2,20 @@ import { useForm } from 'react-hook-form'
 import './styles/MainContact.css'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
+import './styles/ToastMessage.css'
 
 export const MainContact = ({ visibleRef }) => {
   const form = useRef()
   const [valueButton, setValueButton] = useState('SEND MESSAGE')
+  const [visible, setVisible] = useState(false)
+  const closeToast = () => {
+    setVisible(false)
+  }
+  const closeToastTime = () => {
+    setTimeout(() => {
+      setVisible(false)
+    }, 5000)
+  }
   const {
     formState: { errors },
     register,
@@ -26,6 +36,8 @@ export const MainContact = ({ visibleRef }) => {
             reset()
           }, 250)
           setTimeout(() => {
+            setVisible(true)
+            closeToastTime()
             setValueButton('SEND MESSAGE')
           }, 1000)
         },
@@ -87,6 +99,17 @@ export const MainContact = ({ visibleRef }) => {
       <p>
         Elaborado por: <span>Alex Chipre</span>
       </p>
+      <div>
+      {
+        visible
+
+          ? <article className='card messageToast'>
+          <h2 id='ToastMessage'>✓  Sent Message</h2>
+          <div onClick={closeToast} className="closedToast">╳</div>
+        </article>
+          : ''
+      }
+    </div>
     </article>
   )
 }
